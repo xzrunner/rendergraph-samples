@@ -1,0 +1,1609 @@
+{
+    "nodes": [
+        [
+            {
+                "position": [
+                    -205.93621826171876,
+                    66.72552490234375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::ztest",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "func": "lequal"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -79.93618774414063,
+                    64.72552490234375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::clear",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "type": [
+                        "color",
+                        "depth"
+                    ],
+                    "color": {
+                        "r": 128,
+                        "g": 128,
+                        "b": 128,
+                        "a": 255
+                    }
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    75.75000762939453,
+                    97.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "channel": 0
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    303.7499694824219,
+                    102.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::draw",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 31,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    1137.5296630859376,
+                    -689.1060180664063
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "pass_end": 0
+                },
+                "comp_type": "bp_node",
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -327.2448425292969,
+                    66.13265991210938
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::zwrite",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "enable": true
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    89.0000991821289,
+                    -243.20001220703126
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::shader",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "vert": "#version 330 core\\nlayout (location = 0) in vec4 position;\\nlayout (location = 1) in vec2 texcoord;\\n\\nout VS_OUT {\\n    float height;\\n    vec2 texcoord;\\n    vec3 eye_pos;\\n    vec3 frag_pos;\\n} vs_out;\\n\\n\\nuniform mat4 u_projection;\\nuniform mat4 u_view;\\nuniform mat4 u_model;\\n\\nuniform sampler2D u_heightmap;\\n\\nvoid main()\\n{\\n\\tfloat height = texture2D(u_heightmap, texcoord).r * 0.3;\\n\\tvs_out.height = height;\\n\\n\\tvec4 pos = position;\\n\\tpos.y = height;\\n\\n//\\tvs_out.eye_pos = vec3(u_view * u_model * pos);\\n\\tvs_out.eye_pos = vec3(u_model * pos);\\n\\tvs_out.frag_pos = vec3(u_model * pos);\\n\\tgl_Position = u_projection * u_view * u_model * pos;\\n\\n\\tvs_out.texcoord = texcoord;\\n}\\n",
+                    "frag": "#version 330 core\\nout vec4 FragColor;\\n\\nin VS_OUT{\\n    float height;\\n    vec2 texcoord;\\n    vec3 eye_pos;\\n    vec3 frag_pos;\\n} fs_in;\\n\\n\\nuniform sampler2D u_detailmap;\\n\\nuniform sampler2D u_splatmap0;\\nuniform sampler2D u_splatmap1;\\nuniform sampler2D u_splatmap2;\\nuniform sampler2D u_splatmap3;\\n\\nvoid main()\\n{\\n    //vec4 splat_col;\\n    //if (fs_in.height < 0.33) {\\n    //    float t = fs_in.height / 0.33;\\n    //    splat_col = texture2D(u_splatmap0, fs_in.texcoord) * (1 - t) + texture2D(u_splatmap1, fs_in.texcoord) * t;\\n    //}\\n    //else if (fs_in.height < 0.66) {\\n    //    float t = (fs_in.height - 0.33) / 0.33;\\n    //    splat_col = texture2D(u_splatmap1, fs_in.texcoord) * (1 - t) + texture2D(u_splatmap2, fs_in.texcoord) * t;\\n    //}\\n    //else {\\n    //    float t = (fs_in.height - 0.66) / 0.33;\\n    //    splat_col = texture2D(u_splatmap2, fs_in.texcoord) * (1 - t) + texture2D(u_splatmap3, fs_in.texcoord) * t;\\n    //}\\n\\n    //vec4 detail_col = texture2D(u_detailmap, fs_in.texcoord);\\n    //FragColor = splat_col * detail_col;\\n\\n    //vec3 fdx = vec3(dFdx(fs_in.eye_pos.x), dFdx(fs_in.eye_pos.y), dFdx(fs_in.eye_pos.z));\\n    //vec3 fdy = vec3(dFdy(fs_in.eye_pos.x), dFdy(fs_in.eye_pos.y), dFdy(fs_in.eye_pos.z));\\n    vec3 fdx = dFdx(fs_in.eye_pos);\\n    vec3 fdy = dFdy(fs_in.eye_pos);\\n    vec3 N = normalize(cross(fdx, fdy));\\n\\n    vec3 light_dir = normalize(vec3(0, -10, 10) - fs_in.frag_pos);\\n    float diff = max(dot(N, light_dir), 0.0);\\n    vec3 diffuse = diff * vec3(1.0, 1.0, 1.0);\\n\\n    FragColor = vec4(diffuse, 1.0);\\n//    FragColor = vec4(N, 1.0);\\n}"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -300.88507080078127,
+                    -311.8900146484375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "..\\..\\..\\asset\\terrain\\detailMap.tga",
+                    "type": "2d",
+                    "width": 512,
+                    "height": 512,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_detailmap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -356.82220458984377,
+                    -466.37603759765627
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "..\\..\\..\\asset\\terrain\\lowestTile.tga",
+                    "type": "2d",
+                    "width": 256,
+                    "height": 256,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_splatmap0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -254.8221435546875,
+                    -467.37603759765627
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "..\\..\\..\\asset\\terrain\\lowTile.tga",
+                    "type": "2d",
+                    "width": 256,
+                    "height": 256,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_splatmap1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -144.82199096679688,
+                    -466.37603759765627
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "..\\..\\..\\asset\\terrain\\HighTile.tga",
+                    "type": "2d",
+                    "width": 256,
+                    "height": 256,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_splatmap2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -31.82196044921875,
+                    -466.37603759765627
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "..\\..\\..\\asset\\terrain\\highestTile.tga",
+                    "type": "2d",
+                    "width": 256,
+                    "height": 256,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_splatmap3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -193.0653076171875,
+                    -241.93414306640626
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::model_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_model"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -195.11434936523438,
+                    -197.53829956054688
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::view_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_view"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -195.79736328125,
+                    -153.1424560546875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::project_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "u_projection"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    140.41818237304688,
+                    27.54547119140625
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::heightfield",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "width": 128,
+                    "height": 128
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    505.3438720703125,
+                    -937.3919067382813
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::shader",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "vert": "#version 330 core\\nlayout (location = 0) in vec4 position;\\nlayout (location = 1) in vec2 texcoord;\\n\\nout VS_OUT {\\n    vec2 texcoord;\\n} vs_out;\\n\\nvoid main()\\n{\\n\\tvs_out.texcoord = texcoord;\\n\\tgl_Position = position;\\n}\\n",
+                    "frag": "#version 330 core\\nout vec4 FragColor;\\n\\nin VS_OUT {\\n    vec2 texcoord;\\n} fs_in;\\n\\n\\nuniform sampler2D samplerPerlinPerm2D;\\nuniform sampler2D samplerPerlinGrad2D;\\n\\n#define OCTAVES 10 // using a 'static' value here to prevent the need for dynamic loop branching\\n\\nuniform float gUVScale;\\nuniform float gSeed;\\nuniform float gLacunarity;\\nuniform float gGain;\\n\\nconst float gDistortionScale = 0.15;\\nconst float gDistortionGain = 0.5;\\nconst float gDistortionUVScale = 4.0;\\nconst float gWarp = 0.15;\\nconst float gGain1 = 0.8;\\nconst float gWarp0 = 0.4;\\n//const float gWarp = 0.35;\\nconst float gDamp0 = 1.0;\\nconst float gDamp = 0.8;\\nconst float gDampScale = 1.0;\\n\\nfloat perlinNoise(vec2 p, float seed)\\n{\\n\\t// Calculate 2D integer coordinates i and fraction p.\\n\\tvec2 i = floor(p);\\n\\tvec2 f = p - i;\\n\\n\\t// Get weights from the coordinate fraction\\n\\tvec2 w = f * f * f * (f * (f * 6 - 15) + 10);\\n\\tvec4 w4 = vec4(1, w.x, w.y, w.x * w.y);\\n\\n\\t// Get the four randomly permutated indices from the noise lattice nearest to\\n\\t// p and offset these numbers with the seed number.\\n\\tvec4 perm = texture2D(samplerPerlinPerm2D, i / 256) + seed;\\n\\n\\t// Permutate the four offseted indices again and get the 2D gradient for each\\n\\t// of the four permutated coordinates-seed pairs.\\n\\tvec4 g1 = texture2D(samplerPerlinGrad2D, perm.xy) * 2 - 1;\\n\\tvec4 g2 = texture2D(samplerPerlinGrad2D, perm.zw) * 2 - 1;\\n\\n\\t// Evaluate the four lattice gradients at p\\n\\tfloat a = dot(g1.xy, f);\\n\\tfloat b = dot(g2.xy, f + vec2(-1,  0));\\n\\tfloat c = dot(g1.zw, f + vec2( 0, -1));\\n\\tfloat d = dot(g2.zw, f + vec2(-1, -1));\\n\\n\\t// Bi-linearly blend between the gradients, using w4 as blend factors.\\n\\tvec4 grads = vec4(a, b - a, c - a, a - b - c + d);\\n\\tfloat n = dot(grads, w4);\\n\\n\\t// Return the noise value, roughly normalized in the range [-1, 1]\\n\\treturn n * 1.5;\\n}\\n\\nfloat turbulence(vec2 p, float seed, int octaves, float lacunarity, float gain)\\n{\\n\\tfloat sum = 0;\\n\\tfloat freq = 1.0, amp = 1.0;\\n\\tfor (int i=0; i < octaves; i++)\\n\\t{\\n\\t\\tfloat n = perlinNoise(p*freq, seed + i / 256.0);\\n\\t\\tsum += n*amp;\\n\\t\\tfreq *= lacunarity;\\n\\t\\tamp *= gain;\\n\\t}\\n\\treturn sum;\\n}\\n\\nfloat billowedNoise(vec2 p, float seed)\\n{\\n\\treturn abs(perlinNoise(p, seed));\\n}\\n\\nfloat billowyTurbulence(vec2 p, float seed, int octaves, float lacunarity, float gain)\\n{\\n\\tfloat sum = 0;\\n\\tfloat freq = 1.0, amp = 1.0;\\n\\tfor (int i=0; i < octaves; i++)\\n\\t{\\n\\t\\tfloat n = billowedNoise(p*freq, seed + i / 256.0);\\n\\t\\tsum += n*amp;\\n\\t\\tfreq *= lacunarity;\\n\\t\\tamp *= gain;\\n\\t}\\n\\treturn sum;\\n}\\n\\nfloat ridgedNoise(vec2 p, float seed)\\n{\\n\\treturn 1.0f-abs(perlinNoise(p, seed));\\n}\\n\\nfloat ridgedTurbulence(vec2 p, float seed, int octaves, float lacunarity, float gain)\\n{\\n\\tfloat sum = 0;\\n\\tfloat freq = 1.0, amp = 1.0;\\n\\tfor (int i=0; i < octaves; i++)\\n\\t{\\n\\t\\tfloat n = ridgedNoise(p*freq, seed + i / 256.0);\\n\\t\\tsum += n*amp;\\n\\t\\tfreq *= lacunarity;\\n\\t\\tamp *= gain;\\n\\t}\\n\\treturn sum;\\n}\\n\\nvec3 perlinNoisePseudoDeriv(vec2 p, float seed)\\n{\\n\\t// Calculate 2D integer coordinates i and fraction p.\\n\\tvec2 i = floor(p);\\n\\tvec2 f = p - i;\\n\\t\\n\\t// Get weights from the coordinate fraction\\n\\tvec2 w = f * f * f * (f * (f * 6 - 15) + 10);\\n\\tvec4 w4 = vec4(1, w.x, w.y, w.x * w.y);\\n\\n\\t// Get pseudo derivative weights\\n\\tvec2 dw = f * f * (f * (30 * f - 60) + 30);\\n\\t\\n\\t// Get the four randomly permutated indices from the noise lattice nearest to\\n\\t// p and offset these numbers with the seed number.\\n\\tvec4 perm = texture2D(samplerPerlinPerm2D, i / 256) + seed;\\n\\t\\n\\t// Permutate the four offseted indices again and get the 2D gradient for each\\n\\t// of the four permutated coordinates-seed pairs.\\n\\tvec4 g1 = texture2D(samplerPerlinGrad2D, perm.xy) * 2 - 1;\\n\\tvec4 g2 = texture2D(samplerPerlinGrad2D, perm.zw) * 2 - 1;\\n\\t\\n\\t// Evaluate the four lattice gradients at p\\n\\tfloat a = dot(g1.xy, f);\\n\\tfloat b = dot(g2.xy, f + vec2(-1,  0));\\n\\tfloat c = dot(g1.zw, f + vec2( 0, -1));\\n\\tfloat d = dot(g2.zw, f + vec2(-1, -1));\\n\\t\\n\\t// Bi-linearly blend between the gradients, using w4 as blend factors.\\n\\tvec4 grads = vec4(a, b - a, c - a, a - b - c + d);\\n\\tfloat n = dot(grads, w4);\\n\\n\\t// Calculate pseudo derivates\\n\\tfloat dx = dw.x * (grads.y + grads.w*w.y);\\n\\tfloat dy = dw.y * (grads.z + grads.w*w.x);\\n\\n\\t// Return the noise value, roughly normalized in the range [-1, 1]\\n\\t// Also return the pseudo dn/dx and dn/dy, scaled by the same factor\\n\\treturn vec3(n, dx, dy) * 1.5;\\n}\\n\\nfloat iqTurbulence(vec2 p, float seed, int octaves, float lacunarity, float gain)\\n{\\n\\tfloat sum = 0.5;\\n\\tfloat freq = 1.0, amp = 1.0;\\n\\tvec2 dsum = vec2(0,0);\\n\\tfor (int i=0; i < octaves; i++)\\n\\t{\\n\\t\\tvec3 n = perlinNoisePseudoDeriv(p*freq, seed + i / 256.0);\\n\\t\\tdsum += n.yz;\\n\\t\\tsum += amp * n.x / (1 + dot(dsum, dsum));\\n\\t\\tfreq *= lacunarity;\\n\\t\\tamp *= gain;\\n\\t}\\n\\treturn sum;\\n}\\n\\nvec3 perlinNoiseDeriv(vec2 p, float seed)\\n{\\n\\t// Calculate 2D integer coordinates i and fraction p.\\n\\tvec2 i = floor(p);\\n\\tvec2 f = p - i;\\n\\t\\n\\t// Get weights from the coordinate fraction\\n\\tvec2 w = f * f * f * (f * (f * 6 - 15) + 10); // 6f^5 - 15f^4 + 10f^3\\n\\tvec4 w4 = vec4(1, w.x, w.y, w.x * w.y);\\n\\n\\t// Get the derivative dw/df\\n\\tvec2 dw = f * f * (f * (f * 30 - 60) + 30); // 30f^4 - 60f^3 + 30f^2\\n\\n\\t// Get the derivative d(w*f)/df\\n\\tvec2 dwp = f * f * f * (f * (f * 36 - 75) + 40); // 36f^5 - 75f^4 + 40f^3\\n\\n\\t// Get the four randomly permutated indices from the noise lattice nearest to\\n\\t// p and offset these numbers with the seed number.\\n\\tvec4 perm = texture2D(samplerPerlinPerm2D, i / 256) + seed;\\n\\t\\n\\t// Permutate the four offseted indices again and get the 2D gradient for each\\n\\t// of the four permutated coordinates-seed pairs.\\n\\tvec4 g1 = texture2D(samplerPerlinGrad2D, perm.xy) * 2 - 1;\\n\\tvec4 g2 = texture2D(samplerPerlinGrad2D, perm.zw) * 2 - 1;\\n\\t\\n\\t// Evaluate the four lattice gradients at p\\n\\tfloat a = dot(g1.xy, f);\\n\\tfloat b = dot(g2.xy, f + vec2(-1,  0));\\n\\tfloat c = dot(g1.zw, f + vec2( 0, -1));\\n\\tfloat d = dot(g2.zw, f + vec2(-1, -1));\\n\\t\\n\\t// Bi-linearly blend between the gradients, using w4 as blend factors.\\n\\tvec4 grads = vec4(a, b - a, c - a, a - b - c + d);\\n\\tfloat n = dot(grads, w4);\\n\\n\\t// Calculate the derivatives dn/dx and dn/dy\\n\\tfloat dx = (g1.x + (g1.z-g1.x)*w.y) + ((g2.y-g1.y)*f.y - g2.x + ((g1.y-g2.y-g1.w+g2.w)*f.y + g2.x + \\n\\t           g1.w - g2.z - g2.w)*w.y)*dw.x + ((g2.x-g1.x) + (g1.x-g2.x-g1.z+g2.z)*w.y)*dwp.x;\\n\\tfloat dy = (g1.y + (g2.y-g1.y)*w.x) + ((g1.z-g1.x)*f.x - g1.w + ((g1.x-g2.x-g1.z+g2.z)*f.x + g2.x + \\n\\t           g1.w - g2.z - g2.w)*w.x)*dw.y + ((g1.w-g1.y) + (g1.y-g2.y-g1.w+g2.w)*w.x)*dwp.y;\\n\\n\\treturn vec3(n, dx, dy) * 1.5;\\n}\\n\\nfloat swissTurbulence(vec2 p, float seed, int octaves,\\n                      float lacunarity, float gain,\\n\\t\\t\\t\\t\\t  float warp)\\n{\\n     float sum = 0;\\n     float freq = 1.0, amp = 1.0;\\n     vec2 dsum = vec2(0,0);\\n     for(int i=0; i < octaves; i++)\\n     {\\n         vec3 n = perlinNoiseDeriv((p + warp * dsum)*freq, seed + i / 256.0);\\n         sum += amp * (1 - abs(n.x));\\n         dsum += amp * n.yz * -n.x;\\n         freq *= lacunarity;\\n         amp *= gain * clamp(sum, 0.0, 1.0);\\n    }\\n    return sum;\\n}\\n\\nfloat jordanTurbulence(vec2 p, float seed, int octaves, float lacunarity,\\n                       float gain1, float gain,\\n                       float warp0, float warp,\\n                       float damp0, float damp,\\n                       float damp_scale)\\n{\\n    vec3 n = perlinNoiseDeriv(p, seed);\\n    vec3 n2 = n * n.x;\\n    float sum = n2.x;\\n    vec2 dsum_warp = warp0*n2.yz;\\n    vec2 dsum_damp = damp0*n2.yz;\\n\\n    float amp = gain1;\\n    float freq = lacunarity;\\n    float damped_amp = amp * gain;\\n\\n    for(int i=1; i < octaves; i++)\\n    {\\n        n = perlinNoiseDeriv(p * freq + dsum_warp.xy, seed + i / 256.0);\\n        n2 = n * n.x;\\n        sum += damped_amp * n2.x;\\n        dsum_warp += warp * n2.yz;\\n        dsum_damp += damp * n2.yz;\\n        freq *= lacunarity;\\n        amp *= gain;\\n        damped_amp = amp * (1-damp_scale/(1+dot(dsum_damp,dsum_damp)));\\n    }\\n    return sum;\\n}\\n\\nfloat psPerlinNoise()\\n{\\n\\tfloat height = perlinNoise(fs_in.texcoord * gUVScale, gSeed);\\n\\treturn height * 0.5f + 0.5f;\\n}\\n\\nfloat psTurbulence()\\n{\\n\\tfloat height = turbulence(fs_in.texcoord * gUVScale, gSeed, OCTAVES, gLacunarity, gGain);\\n\\treturn height * 0.4f + 0.5f;\\n}\\n\\nfloat psBillowyTurbulence()\\n{\\n\\tfloat height = billowyTurbulence(fs_in.texcoord * gUVScale, gSeed, OCTAVES, gLacunarity, gGain);\\n\\treturn height * 0.5f + 0.25f;\\n}\\n\\nfloat psRidgedTurbulence()\\n{\\n\\tfloat height = ridgedTurbulence(fs_in.texcoord * gUVScale, gSeed, OCTAVES, gLacunarity, gGain);\\n\\treturn height * 0.5f - 0.33f;\\n}\\n\\nfloat psIqTurbulence()\\n{\\n\\tfloat height = iqTurbulence(fs_in.texcoord * gUVScale, gSeed, OCTAVES, gLacunarity, gGain);\\n\\treturn height * 0.4f + 0.33f;\\n}\\n\\nfloat psSwissTurbulence()\\n{\\n\\tvec2 p = fs_in.texcoord * gUVScale;\\n\\tp.x += gDistortionScale * turbulence(fs_in.texcoord * gDistortionUVScale, gSeed + 0.1, 4, gLacunarity, gDistortionGain);\\n\\tp.y += gDistortionScale * turbulence(fs_in.texcoord * gDistortionUVScale, gSeed + 0.2, 4, gLacunarity, gDistortionGain);\\n\\tfloat height = swissTurbulence(p, gSeed, OCTAVES, gLacunarity, gGain, gWarp); \\n\\treturn 0.25f * height - 0.05f;\\n}\\n\\nfloat psJordanTurbulence()\\n{\\n\\tvec2 p = fs_in.texcoord * gUVScale;\\n\\tp.x += gDistortionScale * turbulence(fs_in.texcoord * gDistortionUVScale, gSeed + 0.1, 4, gLacunarity, gDistortionGain);\\n\\tp.y += gDistortionScale * turbulence(fs_in.texcoord * gDistortionUVScale, gSeed + 0.2, 4, gLacunarity, gDistortionGain);\\n\\tfloat height = jordanTurbulence(p, gSeed, OCTAVES, gLacunarity, gGain1, gGain, gWarp0, gWarp, gDamp0, gDamp, gDampScale);\\n\\treturn height;\\n}\\n\\nvoid main()\\n{\\n\\tfloat v = psJordanTurbulence();\\n\\tFragColor = vec4(v, v, v, 1.0);\\n}"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 19,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    187.82345581054688,
+                    -872.0737915039063
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "textures\\PerlinPerm2D_GL.png",
+                    "type": "2d",
+                    "width": 256,
+                    "height": 256,
+                    "format": "rgba8",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "samplerPerlinPerm2D"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    295.97662353515627,
+                    -873.9390258789063
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "textures\\PerlinGrad2D_GL.png",
+                    "type": "2d",
+                    "width": 256,
+                    "height": 256,
+                    "format": "rgba8",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "samplerPerlinGrad2D"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    539.3796997070313,
+                    -697.349853515625
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "channel": 0
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    837.6954956054688,
+                    -715.1095581054688
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::draw",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 29,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    673.864013671875,
+                    -848.4007568359375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::primitive_shape",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "type": "quad",
+                    "layout": "pos_tex"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    103.37568664550781,
+                    -1021.2764892578125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector1",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "val": 1.100000023841858
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "gSeed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -94.42620849609375,
+                    -670.4459838867188
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::ztest",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "func": "lequal"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 24,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    31.57379150390625,
+                    -672.4459838867188
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::clear",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "type": [
+                        "color",
+                        "depth"
+                    ],
+                    "color": {
+                        "r": 128,
+                        "g": 128,
+                        "b": 128,
+                        "a": 255
+                    }
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -215.73492431640626,
+                    -671.0388793945313
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::zwrite",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "enable": true
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 23,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    196.44459533691407,
+                    -687.48486328125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "channel": 0
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 28,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    51.694732666015628,
+                    -800.4847412109375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::render_target",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "width": 128,
+                    "height": 128,
+                    "depth_buf": false,
+                    "color_buf": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "obj"
+                            },
+                            {
+                                "node_idx": 29,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    352.71234130859377,
+                    -686.1259765625
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::clear",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "type": [
+                        "depth"
+                    ],
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                    }
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 19,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    998.4521484375,
+                    -704.5703735351563
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::unbind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -129.6048126220703,
+                    -761.5360717773438
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "",
+                    "type": "2d",
+                    "width": 128,
+                    "height": 128,
+                    "format": "rgba8",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 27,
+                                "pin": "col0"
+                            },
+                            {
+                                "node_idx": 6,
+                                "pin": "u_heightmap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    483.1016845703125,
+                    125.27276611328125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "pass_end": 1
+                },
+                "comp_type": "bp_node",
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    2.2293853759765627,
+                    -1022.315673828125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector1",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "val": 1.0
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "gUVScale"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    211.23138427734376,
+                    -1022.315673828125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector1",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "val": 4.0
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "gLacunarity"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    317.7814636230469,
+                    -1022.3155517578125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector1",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "val": 0.5
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "gGain"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    ],
+    "comp_type": "n0_complex",
+    "page_type": "render_graph"
+}

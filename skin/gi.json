@@ -1,0 +1,915 @@
+{
+    "nodes": [
+        [
+            {
+                "position": [
+                    -275.25,
+                    87.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::zwrite",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "enable": true
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -150.25,
+                    85.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::ztest",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "func": "lequal"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -24.25,
+                    85.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::clear",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "type": [
+                        "color",
+                        "depth"
+                    ],
+                    "color": {
+                        "r": 128,
+                        "g": 128,
+                        "b": 128,
+                        "a": 255
+                    }
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    115.75,
+                    70.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "channel": 0
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    259.75,
+                    60.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::draw",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    139.61962890625,
+                    -165.2680206298828
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::shader",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "vert": "#version 330 core\\nlayout (location = 0) in vec3 aPos;\\nlayout (location = 1) in vec3 aNormal;\\nlayout (location = 2) in vec2 aTexCoords;\\n\\nout vec2 TexCoords;\\nout vec3 WorldPos;\\nout vec3 Normal;\\n\\nuniform mat4 projection;\\nuniform mat4 view;\\nuniform mat4 model;\\n\\nvoid main()\\n{\\n    TexCoords = aTexCoords;\\n    WorldPos = vec3(model * vec4(aPos, 1.0));\\n    Normal = mat3(model) * aNormal;   \\n\\n    gl_Position =  projection * view * vec4(WorldPos, 1.0);\\n}",
+                    "frag": "#version 330 core\\nout vec4 FragColor;\\nin vec2 TexCoords;\\nin vec3 WorldPos;\\nin vec3 Normal;\\n\\n// material parameters\\nuniform sampler2D albedoMap;\\nuniform sampler2D normalMap;\\n//uniform sampler2D metallicMap;\\n//uniform sampler2D roughnessMap;\\nuniform sampler2D aoMap;\\n\\n// IBL\\nuniform samplerCube irradianceMap;\\nuniform samplerCube prefilterMap;\\nuniform sampler2D brdfLUT;\\n\\n// lights\\nuniform vec3 lightPositions;\\nuniform vec3 lightColors;\\n//uniform vec3 lightPositions[4];\\n//uniform vec3 lightColors[4];\\n\\nuniform vec3 camPos;\\n\\nconst float PI = 3.14159265359;\\n// ----------------------------------------------------------------------------\\n// Easy trick to get tangent-normals to world-space to keep PBR code simplified.\\n// Don't worry if you don't get what's going on; you generally want to do normal \\n// mapping the usual way for performance anways; I do plan make a note of this \\n// technique somewhere later in the normal mapping tutorial.\\nvec3 getNormalFromMap()\\n{\\n    vec3 tangentNormal = texture(normalMap, TexCoords).xyz * 2.0 - 1.0;\\n\\n    vec3 Q1  = dFdx(WorldPos);\\n    vec3 Q2  = dFdy(WorldPos);\\n    vec2 st1 = dFdx(TexCoords);\\n    vec2 st2 = dFdy(TexCoords);\\n\\n    vec3 N   = normalize(Normal);\\n    vec3 T  = normalize(Q1*st2.t - Q2*st1.t);\\n    vec3 B  = -normalize(cross(N, T));\\n    mat3 TBN = mat3(T, B, N);\\n\\n    return normalize(TBN * tangentNormal);\\n}\\n// ----------------------------------------------------------------------------\\nfloat DistributionGGX(vec3 N, vec3 H, float roughness)\\n{\\n    float a = roughness*roughness;\\n    float a2 = a*a;\\n    float NdotH = max(dot(N, H), 0.0);\\n    float NdotH2 = NdotH*NdotH;\\n\\n    float nom   = a2;\\n    float denom = (NdotH2 * (a2 - 1.0) + 1.0);\\n    denom = PI * denom * denom;\\n\\n    return nom / denom;\\n}\\n// ----------------------------------------------------------------------------\\nfloat GeometrySchlickGGX(float NdotV, float roughness)\\n{\\n    float r = (roughness + 1.0);\\n    float k = (r*r) / 8.0;\\n\\n    float nom   = NdotV;\\n    float denom = NdotV * (1.0 - k) + k;\\n\\n    return nom / denom;\\n}\\n// ----------------------------------------------------------------------------\\nfloat GeometrySmith(vec3 N, vec3 V, vec3 L, float roughness)\\n{\\n    float NdotV = max(dot(N, V), 0.0);\\n    float NdotL = max(dot(N, L), 0.0);\\n    float ggx2 = GeometrySchlickGGX(NdotV, roughness);\\n    float ggx1 = GeometrySchlickGGX(NdotL, roughness);\\n\\n    return ggx1 * ggx2;\\n}\\n// ----------------------------------------------------------------------------\\nvec3 fresnelSchlick(float cosTheta, vec3 F0)\\n{\\n    return F0 + (1.0 - F0) * pow(1.0 - cosTheta, 5.0);\\n}\\n// ----------------------------------------------------------------------------\\nvec3 fresnelSchlickRoughness(float cosTheta, vec3 F0, float roughness)\\n{\\n    return F0 + (max(vec3(1.0 - roughness), F0) - F0) * pow(1.0 - cosTheta, 5.0);\\n}   \\n// ----------------------------------------------------------------------------\\nvoid main()\\n{\\n    // material properties\\n    vec3 albedo = pow(texture(albedoMap, TexCoords).rgb, vec3(2.2));\\n    //float metallic = texture(metallicMap, TexCoords).r;\\n    float metallic  = 0.1;\\n    //float roughness = texture(roughnessMap, TexCoords).r;\\n    float roughness = 0.5;\\n    float ao = texture(aoMap, TexCoords).a;\\n       \\n    // input lighting data\\n    vec3 N = getNormalFromMap();\\n    vec3 V = normalize(camPos - WorldPos);\\n    vec3 R = reflect(-V, N); \\n\\n    // calculate reflectance at normal incidence; if dia-electric (like plastic) use F0 \\n    // of 0.04 and if it's a metal, use the albedo color as F0 (metallic workflow)    \\n    vec3 F0 = vec3(0.04); \\n    F0 = mix(F0, albedo, metallic);\\n\\n    // reflectance equation\\n    vec3 Lo = vec3(0.0);\\n//    for(int i = 0; i < 4; ++i) \\n    {\\n        // calculate per-light radiance\\n//        vec3 L = normalize(lightPositions[i] - WorldPos);\\n        vec3 L = normalize(lightPositions - WorldPos);\\n        vec3 H = normalize(V + L);\\n//        float distance = length(lightPositions[i] - WorldPos);\\n        float distance = length(lightPositions - WorldPos);\\n        float attenuation = 1.0 / (distance * distance);\\n//      vec3 radiance = lightColors[i] * attenuation;\\n        vec3 radiance = lightColors * attenuation;        \\n\\n        // Cook-Torrance BRDF\\n        float NDF = DistributionGGX(N, H, roughness);   \\n        float G   = GeometrySmith(N, V, L, roughness);    \\n        vec3 F    = fresnelSchlick(max(dot(H, V), 0.0), F0);        \\n        \\n        vec3 nominator    = NDF * G * F;\\n        float denominator = 4 * max(dot(N, V), 0.0) * max(dot(N, L), 0.0) + 0.001; // 0.001 to prevent divide by zero.\\n        vec3 specular = nominator / denominator;\\n        \\n         // kS is equal to Fresnel\\n        vec3 kS = F;\\n        // for energy conservation, the diffuse and specular light can't\\n        // be above 1.0 (unless the surface emits light); to preserve this\\n        // relationship the diffuse component (kD) should equal 1.0 - kS.\\n        vec3 kD = vec3(1.0) - kS;\\n        // multiply kD by the inverse metalness such that only non-metals \\n        // have diffuse lighting, or a linear blend if partly metal (pure metals\\n        // have no diffuse light).\\n        kD *= 1.0 - metallic;\\n            \\n        // scale light by NdotL\\n        float NdotL = max(dot(N, L), 0.0);        \\n\\n        // add to outgoing radiance Lo\\n        Lo += (kD * albedo / PI + specular) * radiance * NdotL; // note that we already multiplied the BRDF by the Fresnel (kS) so we won't multiply by kS again\\n    }   \\n    \\n    // ambient lighting (we now use IBL as the ambient term)\\n    vec3 F = fresnelSchlickRoughness(max(dot(N, V), 0.0), F0, roughness);\\n    \\n    vec3 kS = F;\\n    vec3 kD = 1.0 - kS;\\n    kD *= 1.0 - metallic;\\n    \\n    vec3 irradiance = texture(irradianceMap, N).rgb;\\n    vec3 diffuse      = irradiance * albedo;\\n    \\n    // sample both the pre-filter map and the BRDF lut and combine them together as per the Split-Sum approximation to get the IBL specular part.\\n    const float MAX_REFLECTION_LOD = 4.0;\\n    vec3 prefilteredColor = textureLod(prefilterMap, R,  roughness * MAX_REFLECTION_LOD).rgb;    \\n    vec2 brdf  = texture(brdfLUT, vec2(max(dot(N, V), 0.0), roughness)).rg;\\n    vec3 specular = prefilteredColor * (F * brdf.x + brdf.y);\\n\\n    vec3 ambient = (kD * diffuse + specular) * ao;\\n    \\n    vec3 color = ambient + Lo;\\n\\n    // HDR tonemapping\\n    color = color / (color + vec3(1.0));\\n    // gamma correct\\n    color = pow(color, vec3(1.0/2.2)); \\n\\n    FragColor = vec4(color, 1.0);\\n}\\n"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "obj"
+                            },
+                            {
+                                "node_idx": 4,
+                                "pin": "shader"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    149.5,
+                    10.0
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::model",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "filepath": "Head2.fbx"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -6.24751091003418,
+                    -11.36839485168457
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::project_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "projection"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    2.1471939086914064,
+                    -53.4473762512207
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::view_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "view"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -1.8396244049072266,
+                    -95.52631378173828
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::model_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "model"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -220.6026153564453,
+                    -148.11842346191407
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "Head_02_Albedo.png",
+                    "type": "2d",
+                    "width": 4096,
+                    "height": 4096,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": []
+                    },
+                    {
+                        "from": "tex",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "albedoMap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -111.30017852783203,
+                    -148.63157653808595
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "Head_02_Normal.png",
+                    "type": "2d",
+                    "width": 2048,
+                    "height": 2048,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": []
+                    },
+                    {
+                        "from": "tex",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "normalMap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -1.9975223541259766,
+                    -149.14474487304688
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "Head_02_AO.png",
+                    "type": "2d",
+                    "width": 1024,
+                    "height": 1024,
+                    "format": "a8",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": []
+                    },
+                    {
+                        "from": "tex",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "aoMap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -220.77456665039063,
+                    -307.5783386230469
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector3",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "val": {
+                        "x": 0.0,
+                        "y": 0.30000001192092898,
+                        "z": -0.4000000059604645
+                    }
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "lightPositions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -129.4324493408203,
+                    -308.09149169921877
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector3",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "val": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    }
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "lightColors"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -9.21397590637207,
+                    -310.14410400390627
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::camera_position",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "camPos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    372.20849609375,
+                    78.74689483642578
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false,
+                    "pass_end": 0
+                },
+                "comp_type": "bp_node",
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -383.07196044921877,
+                    -224.9938507080078
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::gi",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": false
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "prev"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "irradiance_map",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "irradianceMap"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "prefilter_map",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prefilterMap"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "brdf_lut",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "brdfLUT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -550.5811157226563,
+                    -211.33984375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "enable": true,
+                    "preview": true,
+                    "filepath": "..\\hdr\\newport_loft.hdr",
+                    "type": "cube",
+                    "width": 1600,
+                    "height": 800,
+                    "format": "rgba8",
+                    "wrap": "repeat",
+                    "filter": "linear"
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": []
+                    },
+                    {
+                        "from": "tex",
+                        "to": [
+                            {
+                                "node_idx": 17,
+                                "pin": "skybox"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    ],
+    "comp_type": "n0_complex",
+    "page_type": "render_graph"
+}
