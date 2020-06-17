@@ -1,0 +1,1919 @@
+{
+    "nodes": [
+        [
+            {
+                "position": [
+                    -378.6839599609375,
+                    337.3841857910156
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node0",
+                    "channel": 0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 19,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 19,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    540.874267578125,
+                    339.96856689453127
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::unbind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node1",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    194.63186645507813,
+                    -11.032768249511719
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::render_target",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node2",
+                    "width": 1024,
+                    "height": 1024,
+                    "depth_buf": true,
+                    "color_buf": false,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "obj"
+                            },
+                            {
+                                "node_idx": 1,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "obj"
+                            },
+                            {
+                                "node_idx": 1,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    401.45318603515627,
+                    327.3359680175781
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::draw",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node3",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    272.12945556640627,
+                    277.4065246582031
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::primitive_shape",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node4",
+                    "type": "cube",
+                    "layout": "pos_norm_tex",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -43.305511474609378,
+                    4.5541229248046879
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::shader",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node5",
+                    "vert": "#version 330 core\\nlayout (location = 0) in vec3 aPos;\\nlayout (location = 1) in vec3 aNormal;\\nlayout (location = 2) in vec2 aTexCoords;\\n\\nout VS_OUT {\\n    vec3 FragPos;\\n    vec3 Normal;\\n    vec2 TexCoords;\\n} vs_out;\\n\\nuniform mat4 projection;\\nuniform mat4 view;\\nuniform mat4 model;\\n\\nuniform bool inverse_normals;\\n\\nvoid main()\\n{\\n    vs_out.FragPos = vec3(model * vec4(aPos, 1.0));   \\n    vs_out.TexCoords = aTexCoords;\\n    \\n    vec3 n = inverse_normals ? -aNormal : aNormal;\\n    \\n    mat3 normalMatrix = transpose(inverse(mat3(model)));\\n    vs_out.Normal = normalize(normalMatrix * n);\\n    \\n    gl_Position = projection * view * model * vec4(aPos, 1.0);\\n}",
+                    "frag": "#version 330 core\\nout vec4 FragColor;\\n\\nin VS_OUT {\\n    vec3 FragPos;\\n    vec3 Normal;\\n    vec2 TexCoords;\\n} fs_in;\\n\\nstruct Light {\\n    vec3 Position;\\n    vec3 Color;\\n};\\n\\nuniform Light lights[16];\\nuniform sampler2D diffuseTexture;\\nuniform vec3 viewPos;\\n\\nvoid main()\\n{           \\n    vec3 color = texture(diffuseTexture, fs_in.TexCoords).rgb;\\n    vec3 normal = normalize(fs_in.Normal);\\n    // ambient\\n    vec3 ambient = 0.0 * color;\\n    // lighting\\n    vec3 lighting = vec3(0.0);\\n    for(int i = 0; i < 16; i++)\\n    {\\n        // diffuse\\n        vec3 lightDir = normalize(lights[i].Position - fs_in.FragPos);\\n        float diff = max(dot(lightDir, normal), 0.0);\\n        vec3 diffuse = lights[i].Color * diff * color;      \\n        vec3 result = diffuse;        \\n        // attenuation (use quadratic as we have gamma correction)\\n        float distance = length(fs_in.FragPos - lights[i].Position);\\n        result *= 1.0 / (distance * distance);\\n        lighting += result;\\n                \\n    }\\n    FragColor = vec4(ambient + lighting, 1.0);\\n}",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -227.899169921875,
+                    199.981201171875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::perspective_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node6",
+                    "fovy": 0.7853981852531433,
+                    "aspect": 1.0,
+                    "znear": 0.10000000149011612,
+                    "zfar": 100.0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": []
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": []
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -412.53387451171877,
+                    34.04047393798828
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::matrix4",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node7",
+                    "val": {
+                        "val": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -207.19638061523438,
+                    -143.24978637695313
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node8",
+                    "filepath": "resources\\textures\\wood.png",
+                    "type": "2d",
+                    "width": 1024,
+                    "height": 1024,
+                    "format": "rgb",
+                    "wrap": "repeat",
+                    "filter": "linear",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "diffuseTexture"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "diffuseTexture"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -225.22215270996095,
+                    -282.33209228515627
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::camera_position",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node9",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "viewPos"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "viewPos"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    113.57986450195313,
+                    346.6240539550781
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::clear",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node10",
+                    "type": [
+                        "color",
+                        "depth"
+                    ],
+                    "color": {
+                        "r": 128,
+                        "g": 128,
+                        "b": 128,
+                        "a": 255
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    247.12680053710938,
+                    335.914306640625
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node11",
+                    "channel": 0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 3,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    653.0123901367188,
+                    349.4795227050781
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "",
+                    "pass_end": 0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [],
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -220.2030029296875,
+                    -404.011962890625
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node12",
+                    "filepath": "",
+                    "type": "2d",
+                    "width": 1024,
+                    "height": 1024,
+                    "format": "rgba16",
+                    "wrap": "repeat",
+                    "filter": "linear",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 25,
+                                "pin": "hdrBuffer"
+                            },
+                            {
+                                "node_idx": 2,
+                                "pin": "col0"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 25,
+                                "pin": "hdrBuffer"
+                            },
+                            {
+                                "node_idx": 2,
+                                "pin": "col0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -207.694580078125,
+                    -55.27711486816406
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::user_script",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node13",
+                    "code": "[vec3(0.0f,  0.0f, 49.5f), vec3(-1.4f, -1.9f, 9.0f), vec3(0.0f, -1.8f, 4.0f), vec3(0.8f, -1.7f, 6.0f)]",
+                    "ret_type": "void",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "lights.Position[16]"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "lights.Position[16]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -208.9365234375,
+                    -98.12055969238281
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::user_script",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node14",
+                    "code": "[vec3(200.0f, 200.0f, 200.0f), vec3(0.1f, 0.0f, 0.0f), vec3(0.0f, 0.0f, 0.2f), vec3(0.0f, 0.1f, 0.0f)]",
+                    "ret_type": "void",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "lights.Color[16]"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "lights.Color[16]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -305.7611083984375,
+                    23.19324493408203
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::translate",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node15",
+                    "offset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 17,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 17,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -207.75244140625,
+                    32.60929870605469
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::scale",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node16",
+                    "scale": {
+                        "x": 2.5,
+                        "y": 2.5,
+                        "z": 27.5
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "model"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "model"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -210.49951171875,
+                    79.41502380371094
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::view_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node17",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "view"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "view"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -257.73876953125,
+                    346.3750915527344
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::zwrite",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node18",
+                    "enable": true,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 22,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 22,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -368.03668212890627,
+                    179.5541534423828
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::ortho_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node19",
+                    "left": -0.20000000298023225,
+                    "right": 0.20000000298023225,
+                    "bottom": 0.0,
+                    "top": 0.4000000059604645,
+                    "znear": 0.0,
+                    "zfar": 1.0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": []
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": []
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -217.900634765625,
+                    122.20603942871094
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::project_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node20",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "projection"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "projection"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -129.34033203125,
+                    346.3782043457031
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::ztest",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node21",
+                    "func": "lequal",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 32,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 32,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -39.207183837890628,
+                    -535.996826171875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::clear",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node22",
+                    "type": [
+                        "color",
+                        "depth"
+                    ],
+                    "color": {
+                        "r": 128,
+                        "g": 128,
+                        "b": 128,
+                        "a": 255
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 24,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 24,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    163.66465759277345,
+                    -545.7451171875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node23",
+                    "channel": 0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    86.2566146850586,
+                    -638.5409545898438
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::shader",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node24",
+                    "vert": "#version 330 core\\nlayout (location = 0) in vec3 aPos;\\nlayout (location = 1) in vec2 aTexCoords;\\n\\nout vec2 TexCoords;\\n\\nvoid main()\\n{\\n    TexCoords = aTexCoords;\\n    gl_Position = vec4(aPos, 1.0);\\n}",
+                    "frag": "#version 330 core\\nout vec4 FragColor;\\n\\nin vec2 TexCoords;\\n\\nuniform sampler2D hdrBuffer;\\nuniform bool hdr;\\nuniform float exposure;\\n\\nvoid main()\\n{             \\n    const float gamma = 2.2;\\n    vec3 hdrColor = texture(hdrBuffer, TexCoords).rgb;\\n    if(hdr)\\n    {\\n        // reinhard\\n        // vec3 result = hdrColor / (hdrColor + vec3(1.0));\\n        // exposure\\n        vec3 result = vec3(1.0) - exp(-hdrColor * exposure);\\n        // also gamma correct while we're at it       \\n        result = pow(result, vec3(1.0 / gamma));\\n        FragColor = vec4(result, 1.0);\\n    }\\n    else\\n    {\\n        vec3 result = pow(hdrColor, vec3(1.0 / gamma));\\n        FragColor = vec4(result, 1.0);\\n    }\\n}",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 24,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 24,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    361.7909240722656,
+                    -555.7450561523438
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::draw",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node25",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 29,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 29,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    309.7392578125,
+                    -638.42333984375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::primitive_shape",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node26",
+                    "type": "quad",
+                    "layout": "pos_tex",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -42.84172821044922,
+                    -678.1590576171875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::vector1",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node27",
+                    "val": 1.0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 25,
+                                "pin": "exposure"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 25,
+                                "pin": "exposure"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    488.5901794433594,
+                    -537.020263671875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "",
+                    "pass_end": 1,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [],
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -41.676353454589847,
+                    -632.7725219726563
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bool",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node28",
+                    "val": true,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 25,
+                                "pin": "hdr"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 25,
+                                "pin": "hdr"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -200.214599609375,
+                    -11.595962524414063
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bool",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node29",
+                    "val": true,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "inverse_normals"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "inverse_normals"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -3.8785400390625,
+                    345.8722839355469
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::cull",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node30",
+                    "type": "off",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 10,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 10,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    122.227783203125,
+                    26.0653076171875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "bp::Commentary",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "title": "render scene into floating point framebuffer",
+                    "comment": "",
+                    "width": 1177.9344482421876,
+                    "height": 695.3326416015625,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [],
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    211.38751220703126,
+                    -624.1088256835938
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "bp::Commentary",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "title": "tonemap HDR colors",
+                    "comment": "",
+                    "width": 654.4998779296875,
+                    "height": 232.0999755859375,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [],
+                "connection": []
+            }
+        ]
+    ],
+    "comp_type": "n0_complex",
+    "page_type": "render_graph"
+}
