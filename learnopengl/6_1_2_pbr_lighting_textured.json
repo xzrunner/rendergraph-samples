@@ -102,6 +102,10 @@
                             {
                                 "node_idx": 3,
                                 "pin": "prev"
+                            },
+                            {
+                                "node_idx": 17,
+                                "pin": "prev"
                             }
                         ]
                     }
@@ -112,6 +116,10 @@
                         "to": [
                             {
                                 "node_idx": 3,
+                                "pin": "prev"
+                            },
+                            {
+                                "node_idx": 17,
                                 "pin": "prev"
                             }
                         ]
@@ -158,6 +166,10 @@
                             {
                                 "node_idx": 1,
                                 "pin": "obj"
+                            },
+                            {
+                                "node_idx": 17,
+                                "pin": "shader"
                             }
                         ]
                     }
@@ -169,6 +181,10 @@
                             {
                                 "node_idx": 1,
                                 "pin": "obj"
+                            },
+                            {
+                                "node_idx": 17,
+                                "pin": "shader"
                             }
                         ]
                     }
@@ -178,8 +194,8 @@
         [
             {
                 "position": [
-                    236.31072998046876,
-                    40.540836334228519
+                    237.06204223632813,
+                    89.37626647949219
                 ],
                 "comp_type": "n2_transform"
             },
@@ -208,23 +224,13 @@
                 "connection": [
                     {
                         "from": "next",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "prev"
-                            }
-                        ]
+                        "to": []
                     }
                 ],
                 "connection": [
                     {
                         "from": "next",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "prev"
-                            }
-                        ]
+                        "to": []
                     }
                 ]
             }
@@ -232,8 +238,8 @@
         [
             {
                 "position": [
-                    87.46986389160156,
-                    -19.459131240844728
+                    97.98826599121094,
+                    116.52876281738281
                 ],
                 "comp_type": "n2_transform"
             },
@@ -256,7 +262,7 @@
                         "small_title_font": false
                     },
                     "name": "node4",
-                    "type": "cube",
+                    "type": "sphere",
                     "layout": "pos_norm_tex",
                     "props": []
                 },
@@ -288,8 +294,8 @@
         [
             {
                 "position": [
-                    368.416259765625,
-                    60.65291976928711
+                    371.4215087890625,
+                    47.88057327270508
                 ],
                 "comp_type": "n2_transform"
             },
@@ -947,6 +953,61 @@
                             {
                                 "node_idx": 2,
                                 "pin": "lightColors[4]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    237.31382751464845,
+                    -0.43390941619873049
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::custom_expression",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node16",
+                    "code": "draw_scene(in shader shader)\\n{\\n    var nrRows = 7.0f;\\n    var nrColumns = 7.0f;\\n    var spacing = 2.5f;\\n\\n    var mt = mat4();\\n    for (var row = 0; row < nrRows; ++row)\\n    {\\n        set_uniform(shader, \"metallic\", row / nrRows);\\n        for (var col = 0; col < nrColumns; ++col)\\n        {\\n            // we clamp the roughness to 0.025 - 1.0 as perfectly smooth surfaces (roughness of 0.0) tend to look a bit off\\n            // on direct lighting.\\n            set_uniform(shader, \"roughness\", clamp(col / nrColumns, 0.05f, 1.0f));\\n\\n            var model = translate(mat4(), vec3(\\n                (col - (nrColumns / 2)) * spacing,\\n                (row - (nrRows / 2)) * spacing,\\n                0.0f\\n            ));\\n            set_uniform(shader, \"model\", model);\\n            render_sphere();\\n        }\\n    }\\n}",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prev"
                             }
                         ]
                     }

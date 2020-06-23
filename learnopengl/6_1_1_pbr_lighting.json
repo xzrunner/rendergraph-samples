@@ -102,6 +102,10 @@
                             {
                                 "node_idx": 3,
                                 "pin": "prev"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "prev"
                             }
                         ]
                     }
@@ -112,6 +116,10 @@
                         "to": [
                             {
                                 "node_idx": 3,
+                                "pin": "prev"
+                            },
+                            {
+                                "node_idx": 14,
                                 "pin": "prev"
                             }
                         ]
@@ -158,6 +166,10 @@
                             {
                                 "node_idx": 1,
                                 "pin": "obj"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "shader"
                             }
                         ]
                     }
@@ -169,6 +181,10 @@
                             {
                                 "node_idx": 1,
                                 "pin": "obj"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "shader"
                             }
                         ]
                     }
@@ -178,8 +194,8 @@
         [
             {
                 "position": [
-                    236.31072998046876,
-                    40.540836334228519
+                    237.21983337402345,
+                    111.2921371459961
                 ],
                 "comp_type": "n2_transform"
             },
@@ -208,23 +224,13 @@
                 "connection": [
                     {
                         "from": "next",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "prev"
-                            }
-                        ]
+                        "to": []
                     }
                 ],
                 "connection": [
                     {
                         "from": "next",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "prev"
-                            }
-                        ]
+                        "to": []
                     }
                 ]
             }
@@ -232,8 +238,8 @@
         [
             {
                 "position": [
-                    87.46986389160156,
-                    -19.459131240844728
+                    91.18885803222656,
+                    131.53257751464845
                 ],
                 "comp_type": "n2_transform"
             },
@@ -256,7 +262,7 @@
                         "small_title_font": false
                     },
                     "name": "node4",
-                    "type": "cube",
+                    "type": "sphere",
                     "layout": "pos_norm_tex",
                     "props": []
                 },
@@ -324,7 +330,7 @@
             {
                 "position": [
                     -278.2129211425781,
-                    119.50428771972656
+                    74.48890686035156
                 ],
                 "comp_type": "n2_transform"
             },
@@ -378,7 +384,7 @@
             {
                 "position": [
                     -275.1083068847656,
-                    72.31429290771485
+                    27.298912048339845
                 ],
                 "comp_type": "n2_transform"
             },
@@ -432,7 +438,7 @@
             {
                 "position": [
                     -272.6246032714844,
-                    28.22890853881836
+                    -16.78647232055664
                 ],
                 "comp_type": "n2_transform"
             },
@@ -485,8 +491,8 @@
         [
             {
                 "position": [
-                    -274.03729248046877,
-                    -295.5264892578125
+                    -275.690185546875,
+                    -267.220703125
                 ],
                 "comp_type": "n2_transform"
             },
@@ -539,8 +545,8 @@
         [
             {
                 "position": [
-                    -263.075439453125,
-                    -203.00137329101563
+                    -264.72833251953127,
+                    -174.6956024169922
                 ],
                 "comp_type": "n2_transform"
             },
@@ -595,8 +601,8 @@
         [
             {
                 "position": [
-                    -261.4225769042969,
-                    -250.10874938964845
+                    -263.0754699707031,
+                    -221.802978515625
                 ],
                 "comp_type": "n2_transform"
             },
@@ -652,7 +658,7 @@
             {
                 "position": [
                     -264.7655029296875,
-                    -16.578346252441408
+                    -61.593727111816409
                 ],
                 "comp_type": "n2_transform"
             },
@@ -710,118 +716,8 @@
         [
             {
                 "position": [
-                    -261.77911376953127,
-                    -62.578372955322269
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::vector1",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node9",
-                    "val": 1.0,
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 2,
-                                "pin": "metallic"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 2,
-                                "pin": "metallic"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -261.301025390625,
-                    -106.29120635986328
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::vector1",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node10",
-                    "val": 1.0,
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 2,
-                                "pin": "roughness"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 2,
-                                "pin": "roughness"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -261.3903503417969,
-                    -151.3316650390625
+                    -263.0432434082031,
+                    -123.02589416503906
                 ],
                 "comp_type": "n2_transform"
             },
@@ -866,6 +762,61 @@
                             {
                                 "node_idx": 2,
                                 "pin": "ao"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    240.54649353027345,
+                    1.6974468231201172
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": ".",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::custom_expression",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node12",
+                    "code": "draw_scene(in shader shader)\\n{\\n    var nrRows = 7.0f;\\n    var nrColumns = 7.0f;\\n    var spacing = 2.5f;\\n\\n    var mt = mat4();\\n    for (var row = 0; row < nrRows; ++row)\\n    {\\n        set_uniform(shader, \"metallic\", row / nrRows);\\n        for (var col = 0; col < nrColumns; ++col)\\n        {\\n            // we clamp the roughness to 0.025 - 1.0 as perfectly smooth surfaces (roughness of 0.0) tend to look a bit off\\n            // on direct lighting.\\n            set_uniform(shader, \"roughness\", clamp(col / nrColumns, 0.05f, 1.0f));\\n\\n            var model = translate(mat4(), vec3(\\n                (col - (nrColumns / 2)) * spacing,\\n                (row - (nrRows / 2)) * spacing,\\n                0.0f\\n            ));\\n            set_uniform(shader, \"model\", model);\\n            render_sphere();\\n        }\\n    }\\n}",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prev"
                             }
                         ]
                     }
