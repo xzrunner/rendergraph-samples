@@ -562,7 +562,7 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "renderlab::user_script",
+                "node_type": "renderlab::custom_data",
                 "node_val": {
                     "style": {
                         "only_title": false,
@@ -618,7 +618,7 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "renderlab::user_script",
+                "node_type": "renderlab::custom_data",
                 "node_val": {
                     "style": {
                         "only_title": false,
@@ -788,7 +788,7 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "renderlab::custom_expression",
+                "node_type": "renderlab::custom_function",
                 "node_val": {
                     "style": {
                         "only_title": false,

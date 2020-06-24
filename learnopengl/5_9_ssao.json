@@ -3224,7 +3224,7 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "renderlab::user_script",
+                "node_type": "renderlab::custom_data",
                 "node_val": {
                     "style": {
                         "only_title": false,
