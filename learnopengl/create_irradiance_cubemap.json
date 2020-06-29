@@ -3,107 +3,6 @@
         [
             {
                 "position": [
-                    -314.5380554199219,
-                    -668.6055908203125
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node0",
-                    "filepath": "resources\\textures\\hdr\\newport_loft.hdr",
-                    "type": "2d",
-                    "width": 0,
-                    "height": 0,
-                    "format": "rgba8",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 3,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 4,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 7,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 10,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 13,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 16,
-                                "pin": "SrcTex"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 3,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 4,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 7,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 10,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 13,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 16,
-                                "pin": "SrcTex"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
                     -45.44746780395508,
                     68.3193588256836
                 ],
@@ -151,7 +50,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
+                                "node_idx": 2,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -162,7 +61,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
+                                "node_idx": 2,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -199,9 +98,9 @@
                     "name": "node3",
                     "filepath": "",
                     "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
+                    "width": 32,
+                    "height": 32,
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -212,7 +111,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
+                                "node_idx": 2,
                                 "pin": "DstTex"
                             }
                         ]
@@ -223,7 +122,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
+                                "node_idx": 2,
                                 "pin": "DstTex"
                             }
                         ]
@@ -240,7 +139,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "equirectangular_to_cubemap_face.json",
+                "filepath": "create_irradiance_cubemap_face.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -257,7 +156,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "equirectangular_to_cubemap_face.json",
+                    "filepath": "create_irradiance_cubemap_face.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -270,7 +169,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "right"
                             }
                         ]
@@ -285,7 +184,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "right"
                             }
                         ]
@@ -302,7 +201,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "equirectangular_to_cubemap_face.json",
+                "filepath": "create_irradiance_cubemap_face.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -319,7 +218,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "equirectangular_to_cubemap_face.json",
+                    "filepath": "create_irradiance_cubemap_face.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -332,7 +231,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "left"
                             }
                         ]
@@ -347,7 +246,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "left"
                             }
                         ]
@@ -384,9 +283,9 @@
                     "name": "node33",
                     "filepath": "",
                     "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
+                    "width": 32,
+                    "height": 32,
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -397,7 +296,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 4,
+                                "node_idx": 3,
                                 "pin": "DstTex"
                             }
                         ]
@@ -408,7 +307,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 4,
+                                "node_idx": 3,
                                 "pin": "DstTex"
                             }
                         ]
@@ -466,7 +365,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 4,
+                                "node_idx": 3,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -477,7 +376,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 4,
+                                "node_idx": 3,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -494,7 +393,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "equirectangular_to_cubemap_face.json",
+                "filepath": "create_irradiance_cubemap_face.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -511,7 +410,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "equirectangular_to_cubemap_face.json",
+                    "filepath": "create_irradiance_cubemap_face.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -524,7 +423,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "top"
                             }
                         ]
@@ -539,7 +438,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "top"
                             }
                         ]
@@ -576,9 +475,9 @@
                     "name": "node3310",
                     "filepath": "",
                     "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
+                    "width": 32,
+                    "height": 32,
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -589,7 +488,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 7,
+                                "node_idx": 6,
                                 "pin": "DstTex"
                             }
                         ]
@@ -600,7 +499,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 7,
+                                "node_idx": 6,
                                 "pin": "DstTex"
                             }
                         ]
@@ -648,7 +547,7 @@
                     "up": {
                         "x": 0.0,
                         "y": 0.0,
-                        "z": -1.0
+                        "z": 1.0
                     },
                     "props": []
                 },
@@ -658,7 +557,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 7,
+                                "node_idx": 6,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -669,7 +568,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 7,
+                                "node_idx": 6,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -686,7 +585,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "equirectangular_to_cubemap_face.json",
+                "filepath": "create_irradiance_cubemap_face.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -703,7 +602,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "equirectangular_to_cubemap_face.json",
+                    "filepath": "create_irradiance_cubemap_face.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -716,7 +615,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "bottom"
                             }
                         ]
@@ -731,7 +630,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "bottom"
                             }
                         ]
@@ -768,9 +667,9 @@
                     "name": "node33106",
                     "filepath": "",
                     "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
+                    "width": 32,
+                    "height": 32,
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -781,7 +680,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 10,
+                                "node_idx": 9,
                                 "pin": "DstTex"
                             }
                         ]
@@ -792,7 +691,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 10,
+                                "node_idx": 9,
                                 "pin": "DstTex"
                             }
                         ]
@@ -840,7 +739,7 @@
                     "up": {
                         "x": 0.0,
                         "y": 0.0,
-                        "z": 1.0
+                        "z": -1.0
                     },
                     "props": []
                 },
@@ -850,7 +749,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 10,
+                                "node_idx": 9,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -861,7 +760,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 10,
+                                "node_idx": 9,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -878,7 +777,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "equirectangular_to_cubemap_face.json",
+                "filepath": "create_irradiance_cubemap_face.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -895,7 +794,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "equirectangular_to_cubemap_face.json",
+                    "filepath": "create_irradiance_cubemap_face.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -908,7 +807,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "front"
                             }
                         ]
@@ -923,7 +822,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "front"
                             }
                         ]
@@ -960,9 +859,9 @@
                     "name": "node33109",
                     "filepath": "",
                     "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
+                    "width": 32,
+                    "height": 32,
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -973,7 +872,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 13,
+                                "node_idx": 12,
                                 "pin": "DstTex"
                             }
                         ]
@@ -984,7 +883,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 13,
+                                "node_idx": 12,
                                 "pin": "DstTex"
                             }
                         ]
@@ -1022,7 +921,7 @@
                     "eye": {
                         "x": 0.0,
                         "y": 0.0,
-                        "z": 1.0
+                        "z": -1.0
                     },
                     "center": {
                         "x": 0.0,
@@ -1042,7 +941,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 13,
+                                "node_idx": 12,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -1053,7 +952,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 13,
+                                "node_idx": 12,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -1070,7 +969,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "equirectangular_to_cubemap_face.json",
+                "filepath": "create_irradiance_cubemap_face.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1087,7 +986,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "equirectangular_to_cubemap_face.json",
+                    "filepath": "create_irradiance_cubemap_face.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -1100,7 +999,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "back"
                             }
                         ]
@@ -1115,7 +1014,7 @@
                         "from": "tex",
                         "to": [
                             {
-                                "node_idx": 19,
+                                "node_idx": 18,
                                 "pin": "back"
                             }
                         ]
@@ -1152,9 +1051,9 @@
                     "name": "node331012",
                     "filepath": "",
                     "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
+                    "width": 32,
+                    "height": 32,
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -1165,7 +1064,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 16,
+                                "node_idx": 15,
                                 "pin": "DstTex"
                             }
                         ]
@@ -1176,7 +1075,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 16,
+                                "node_idx": 15,
                                 "pin": "DstTex"
                             }
                         ]
@@ -1214,7 +1113,7 @@
                     "eye": {
                         "x": 0.0,
                         "y": 0.0,
-                        "z": -1.0
+                        "z": 1.0
                     },
                     "center": {
                         "x": 0.0,
@@ -1234,7 +1133,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 16,
+                                "node_idx": 15,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -1245,7 +1144,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 16,
+                                "node_idx": 15,
                                 "pin": "ViewMat"
                             }
                         ]
@@ -1288,7 +1187,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 20,
+                                "node_idx": 19,
                                 "pin": "_in"
                             }
                         ]
@@ -1299,7 +1198,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 20,
+                                "node_idx": 19,
                                 "pin": "_in"
                             }
                         ]
@@ -1341,6 +1240,108 @@
                 "comp_type": "bp_node",
                 "connection": [],
                 "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -279.5859680175781,
+                    -619.48974609375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "equirectangular_to_cubemap.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "equirectangular_to_cubemap.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": []
+                    },
+                    {
+                        "from": "cube_map",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 3,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 6,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "SrcTex"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": []
+                    },
+                    {
+                        "from": "cube_map",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 3,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 6,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "SrcTex"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "SrcTex"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     ],
