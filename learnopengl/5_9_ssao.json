@@ -3,13 +3,13 @@
         [
             {
                 "position": [
-                    1004.7903442382813,
-                    391.373046875
+                    1017.9208984375,
+                    419.0749206542969
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -38,13 +38,13 @@
         [
             {
                 "position": [
-                    568.3126831054688,
-                    379.4892272949219
+                    546.8606567382813,
+                    230.08863830566407
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -62,7 +62,7 @@
                         "small_title_font": false
                     },
                     "name": "node0",
-                    "filepath": "resources\\objects\\nanosuit\\nanosuit.obj",
+                    "filepath": "resources\\objects\\backpack\\backpack.obj",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -93,13 +93,13 @@
         [
             {
                 "position": [
-                    -242.7897491455078,
-                    205.22512817382813
+                    -254.54879760742188,
+                    213.89373779296876
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -137,6 +137,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ],
                 "connection": [
@@ -152,6 +156,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ]
             }
@@ -165,7 +173,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -242,7 +250,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -319,7 +327,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -390,13 +398,13 @@
         [
             {
                 "position": [
-                    -68.82349395751953,
-                    317.4455871582031
+                    -80.58247375488281,
+                    326.1141662597656
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -445,13 +453,13 @@
         [
             {
                 "position": [
-                    -212.70420837402345,
-                    344.0929870605469
+                    -224.4632568359375,
+                    352.7615661621094
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -509,13 +517,13 @@
         [
             {
                 "position": [
-                    875.1978149414063,
-                    379.90789794921877
+                    911.75390625,
+                    401.7533874511719
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -563,13 +571,13 @@
         [
             {
                 "position": [
-                    35.11193084716797,
-                    432.6534729003906
+                    23.352943420410158,
+                    441.3220520019531
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -627,13 +635,13 @@
         [
             {
                 "position": [
-                    431.642578125,
-                    242.6223907470703
+                    41.98985290527344,
+                    20.259521484375
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -667,6 +675,18 @@
                             {
                                 "node_idx": 14,
                                 "pin": "shader"
+                            },
+                            {
+                                "node_idx": 61,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 64,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 66,
+                                "pin": "shader"
                             }
                         ]
                     }
@@ -682,6 +702,18 @@
                             {
                                 "node_idx": 14,
                                 "pin": "shader"
+                            },
+                            {
+                                "node_idx": 61,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 64,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 66,
+                                "pin": "shader"
                             }
                         ]
                     }
@@ -691,13 +723,13 @@
         [
             {
                 "position": [
-                    245.39718627929688,
-                    273.0792541503906
+                    -175.5975341796875,
+                    70.46688842773438
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -745,13 +777,13 @@
         [
             {
                 "position": [
-                    256.34625244140627,
-                    230.0117645263672
+                    -164.64849853515626,
+                    27.399505615234376
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -799,13 +831,13 @@
         [
             {
                 "position": [
-                    186.0262908935547,
-                    425.7099914550781
+                    174.26730346679688,
+                    434.3785705566406
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -832,7 +864,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 61,
                                 "pin": "prev"
                             }
                         ]
@@ -843,7 +875,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 61,
                                 "pin": "prev"
                             }
                         ]
@@ -854,13 +886,13 @@
         [
             {
                 "position": [
-                    697.4082641601563,
-                    405.4558410644531
+                    671.1537475585938,
+                    249.68621826171876
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -914,7 +946,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -978,7 +1010,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1033,7 +1065,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1097,7 +1129,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1151,7 +1183,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1186,7 +1218,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1236,13 +1268,13 @@
         [
             {
                 "position": [
-                    369.32879638671877,
-                    195.99411010742188
+                    357.5697937011719,
+                    204.6627197265625
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1279,7 +1311,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1316,7 +1348,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1347,13 +1379,13 @@
         [
             {
                 "position": [
-                    -63.05298614501953,
-                    182.29107666015626
+                    -50.3656005859375,
+                    230.47740173339845
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1421,13 +1453,13 @@
         [
             {
                 "position": [
-                    64.57746887207031,
-                    174.34011840820313
+                    77.26493835449219,
+                    222.5264434814453
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1447,8 +1479,8 @@
                     "name": "node2",
                     "offset": {
                         "x": 0.0,
-                        "y": 0.0,
-                        "z": 5.0
+                        "y": 0.5,
+                        "z": 0.0
                     },
                     "props": []
                 },
@@ -1480,13 +1512,13 @@
         [
             {
                 "position": [
-                    168.5452423095703,
-                    182.37586975097657
+                    182.6968536376953,
+                    230.56219482421876
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1540,13 +1572,13 @@
         [
             {
                 "position": [
-                    266.0448913574219,
-                    183.8758544921875
+                    280.1963195800781,
+                    232.06216430664063
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1565,9 +1597,9 @@
                     },
                     "name": "node4",
                     "scale": {
-                        "x": 0.5,
-                        "y": 0.5,
-                        "z": 0.5
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
                     },
                     "props": []
                 },
@@ -1577,8 +1609,8 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 10,
-                                "pin": "model"
+                                "node_idx": 66,
+                                "pin": "value"
                             }
                         ]
                     }
@@ -1588,8 +1620,8 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 10,
-                                "pin": "model"
+                                "node_idx": 66,
+                                "pin": "value"
                             }
                         ]
                     }
@@ -1599,13 +1631,13 @@
         [
             {
                 "position": [
-                    450.7264404296875,
-                    418.8602294921875
+                    755.5745849609375,
+                    428.67828369140627
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1631,7 +1663,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 14,
+                                "node_idx": 66,
                                 "pin": "prev"
                             }
                         ]
@@ -1642,7 +1674,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 14,
+                                "node_idx": 66,
                                 "pin": "prev"
                             }
                         ]
@@ -1653,13 +1685,13 @@
         [
             {
                 "position": [
-                    318.2127990722656,
-                    396.6046447753906
+                    626.2236328125,
+                    355.9326171875
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1715,7 +1747,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1753,6 +1785,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ],
                 "connection": [
@@ -1768,6 +1804,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ]
             }
@@ -1781,7 +1821,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1850,7 +1890,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1905,7 +1945,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1959,7 +1999,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2022,7 +2062,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2077,7 +2117,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2141,7 +2181,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2195,7 +2235,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2249,7 +2289,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2305,7 +2345,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2342,7 +2382,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2377,7 +2417,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2446,7 +2486,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2484,6 +2524,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ],
                 "connection": [
@@ -2499,6 +2543,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ]
             }
@@ -2512,7 +2560,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2567,7 +2615,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2630,7 +2678,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2685,7 +2733,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2739,7 +2787,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2795,7 +2843,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2859,7 +2907,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2913,7 +2961,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2948,7 +2996,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2979,13 +3027,13 @@
         [
             {
                 "position": [
-                    -96.42062377929688,
-                    -1596.5272216796876
+                    -201.9770965576172,
+                    -1605.5587158203126
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -3006,7 +3054,7 @@
                     "val": {
                         "x": 2.0,
                         "y": 4.0,
-                        "z": -7.0
+                        "z": -2.0
                     },
                     "props": []
                 },
@@ -3016,8 +3064,8 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 17,
-                                "pin": "light.Position"
+                                "node_idx": 60,
+                                "pin": "b"
                             }
                         ]
                     }
@@ -3027,8 +3075,8 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 17,
-                                "pin": "light.Position"
+                                "node_idx": 60,
+                                "pin": "b"
                             }
                         ]
                     }
@@ -3044,7 +3092,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -3103,7 +3151,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -3158,7 +3206,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -3213,7 +3261,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -3269,7 +3317,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -3316,6 +3364,470 @@
                         "to": [
                             {
                                 "node_idx": 32,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -205.8856201171875,
+                    -1559.5771484375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::view_mat",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node16",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 60,
+                                "pin": "a"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 60,
+                                "pin": "a"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -100.04755401611328,
+                    -1580.866455078125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::mul",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node26",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 17,
+                                "pin": "light.Position"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 17,
+                                "pin": "light.Position"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    377.5314636230469,
+                    424.3461608886719
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::set_uniform",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node38",
+                    "var_name": "model",
+                    "var_type": "mat4",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 64,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 64,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    143.6544952392578,
+                    349.9497375488281
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::matrix4",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node39",
+                    "val": {
+                        "val": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 63,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 63,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    264.70269775390627,
+                    350.2531433105469
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::scale",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node40",
+                    "scale": {
+                        "x": 7.5,
+                        "y": 7.5,
+                        "z": 7.5
+                    },
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 61,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 61,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    563.1424560546875,
+                    422.93048095703127
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::set_uniform",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node41",
+                    "var_name": "invertedNormals",
+                    "var_type": "bool",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 28,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 28,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    442.09027099609377,
+                    352.892578125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bool",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node42",
+                    "val": false,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 64,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 64,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    430.15887451171877,
+                    251.17263793945313
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::set_uniform",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node3843",
+                    "var_name": "model",
+                    "var_type": "mat4",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 14,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 14,
                                 "pin": "prev"
                             }
                         ]
