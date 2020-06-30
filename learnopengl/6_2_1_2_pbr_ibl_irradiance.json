@@ -912,7 +912,7 @@
                         "small_title_font": false
                     },
                     "name": "node9",
-                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\n\r\nuniform mat4 projection;\r\nuniform mat4 view;\r\n\r\nout vec3 WorldPos;\r\n\r\nvoid main()\r\n{\r\n    WorldPos = aPos;\r\n\r\n\tmat4 rotView = mat4(mat3(view));\r\n\tvec4 clipPos = projection * rotView * vec4(WorldPos, 1.0);\r\n\r\n\tgl_Position = clipPos.xyzw;\r\n}",
+                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\n\r\nuniform mat4 projection;\r\nuniform mat4 view;\r\n\r\nout vec3 WorldPos;\r\n\r\nvoid main()\r\n{\r\n    WorldPos = aPos;\r\n\r\n\tmat4 rotView = mat4(mat3(view));\r\n\tvec4 clipPos = projection * rotView * vec4(WorldPos, 1.0);\r\n\r\n\tgl_Position = clipPos.xyww;\r\n}",
                     "frag": "#version 330 core\r\nout vec4 FragColor;\r\nin vec3 WorldPos;\r\n\r\nuniform samplerCube environmentMap;\r\n\r\nvoid main()\r\n{\t\t\r\n    vec3 envColor = texture(environmentMap, WorldPos).rgb;\r\n    \r\n    // HDR tonemap and gamma correct\r\n    envColor = envColor / (envColor + vec3(1.0));\r\n    envColor = pow(envColor, vec3(1.0/2.2)); \r\n    \r\n    FragColor = vec4(envColor, 1.0);\r\n}\r\n",
                     "props": []
                 },
