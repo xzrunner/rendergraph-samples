@@ -3,8 +3,62 @@
         [
             {
                 "position": [
-                    -314.5380554199219,
-                    -668.6055908203125
+                    -75.79293823242188,
+                    -0.42246055603027346
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    181.2391357421875,
+                    -364.74749755859377
                 ],
                 "comp_type": "n2_transform"
             },
@@ -20,20 +74,17 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "renderlab::texture",
+                "node_type": "renderlab::render_target",
                 "node_val": {
                     "style": {
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "name": "node0",
-                    "filepath": "resources\\textures\\hdr\\newport_loft.hdr",
-                    "type": "2d",
-                    "width": 0,
-                    "height": 0,
-                    "format": "rgba8",
-                    "wrap": "repeat",
-                    "filter": "linear",
+                    "name": "node1",
+                    "width": 512,
+                    "height": 512,
+                    "depth_buf": false,
+                    "color_buf": false,
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -42,28 +93,49 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
-                                "pin": "SrcTex"
+                                "node_idx": 0,
+                                "pin": "rt"
                             },
                             {
-                                "node_idx": 5,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 8,
-                                "pin": "SrcTex"
+                                "node_idx": 9,
+                                "pin": "rt"
                             },
                             {
                                 "node_idx": 11,
-                                "pin": "SrcTex"
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 13,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "rt"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "tex"
                             },
                             {
                                 "node_idx": 14,
-                                "pin": "SrcTex"
+                                "pin": "tex"
                             },
                             {
-                                "node_idx": 17,
-                                "pin": "SrcTex"
+                                "node_idx": 16,
+                                "pin": "tex"
                             }
                         ]
                     }
@@ -73,28 +145,49 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
-                                "pin": "SrcTex"
+                                "node_idx": 0,
+                                "pin": "rt"
                             },
                             {
-                                "node_idx": 5,
-                                "pin": "SrcTex"
-                            },
-                            {
-                                "node_idx": 8,
-                                "pin": "SrcTex"
+                                "node_idx": 9,
+                                "pin": "rt"
                             },
                             {
                                 "node_idx": 11,
-                                "pin": "SrcTex"
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 13,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "rt"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "tex"
                             },
                             {
                                 "node_idx": 14,
-                                "pin": "SrcTex"
+                                "pin": "tex"
                             },
                             {
-                                "node_idx": 17,
-                                "pin": "SrcTex"
+                                "node_idx": 16,
+                                "pin": "tex"
                             }
                         ]
                     }
@@ -104,8 +197,8 @@
         [
             {
                 "position": [
-                    -45.44746780395508,
-                    68.3193588256836
+                    125.18220520019531,
+                    285.2726135253906
                 ],
                 "comp_type": "n2_transform"
             },
@@ -121,28 +214,17 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "renderlab::look_at_mat",
+                "node_type": "renderlab::render_target",
                 "node_val": {
                     "style": {
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "name": "node17",
-                    "eye": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "center": {
-                        "x": 1.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "up": {
-                        "x": 0.0,
-                        "y": -1.0,
-                        "z": 0.0
-                    },
+                    "name": "node12",
+                    "width": 512,
+                    "height": 512,
+                    "depth_buf": false,
+                    "color_buf": false,
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -151,8 +233,49 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
-                                "pin": "ViewMat"
+                                "node_idx": 7,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 16,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 17,
+                                "pin": "_in"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": [
+                            {
+                                "node_idx": 9,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 13,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "tex"
                             }
                         ]
                     }
@@ -162,8 +285,49 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
-                                "pin": "ViewMat"
+                                "node_idx": 7,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 16,
+                                "pin": "rt"
+                            },
+                            {
+                                "node_idx": 17,
+                                "pin": "_in"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": [
+                            {
+                                "node_idx": 9,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 13,
+                                "pin": "tex"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "tex"
                             }
                         ]
                     }
@@ -173,8 +337,8 @@
         [
             {
                 "position": [
-                    -26.58802032470703,
-                    -5.3061676025390629
+                    -4.44622802734375,
+                    328.0907897949219
                 ],
                 "comp_type": "n2_transform"
             },
@@ -201,7 +365,7 @@
                     "type": "2d",
                     "width": 512,
                     "height": 512,
-                    "format": "rgb",
+                    "format": "rgb16f",
                     "wrap": "repeat",
                     "filter": "linear",
                     "props": []
@@ -212,12 +376,8 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "right"
+                                "node_idx": 2,
+                                "pin": "col0"
                             }
                         ]
                     }
@@ -227,12 +387,8 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 3,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "right"
+                                "node_idx": 2,
+                                "pin": "col0"
                             }
                         ]
                     }
@@ -242,13 +398,217 @@
         [
             {
                 "position": [
-                    106.63033294677735,
-                    37.163265228271487
+                    44.6170539855957,
+                    -325.4389343261719
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "draw_equirectangular_plane.json",
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::texture",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node34",
+                    "filepath": "",
+                    "type": "2d",
+                    "width": 512,
+                    "height": 512,
+                    "format": "rgb16f",
+                    "wrap": "repeat",
+                    "filter": "linear",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "col0"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "col0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -369.11444091796877,
+                    -10.749246597290039
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::input",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node2",
+                    "var_type": "texture",
+                    "var_name": "tex",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "_out",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "tex"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "_out",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "tex"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -213.99066162109376,
+                    -230.3667449951172
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bool",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node4",
+                    "val": true,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 13,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "hori"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 9,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 11,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 13,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 15,
+                                "pin": "hori"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    74.47308349609375,
+                    -0.2224578857421875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -265,20 +625,30 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "filepath": "draw_equirectangular_plane.json",
+                    "filepath": "gaussian_blur_pass.json",
                     "props": []
                 },
                 "comp_type": "bp_node",
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
+                        "to": [
+                            {
+                                "node_idx": 9,
+                                "pin": "prev"
+                            }
+                        ]
                     }
                 ],
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
+                        "to": [
+                            {
+                                "node_idx": 9,
+                                "pin": "prev"
+                            }
+                        ]
                     }
                 ]
             }
@@ -286,8 +656,563 @@
         [
             {
                 "position": [
-                    550.0628051757813,
-                    -469.760986328125
+                    -224.195556640625,
+                    172.4434356689453
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bool",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node46",
+                    "val": false,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 16,
+                                "pin": "hori"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 10,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 14,
+                                "pin": "hori"
+                            },
+                            {
+                                "node_idx": 16,
+                                "pin": "hori"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    250.1140899658203,
+                    0.008533477783203125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 10,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 10,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    424.9039611816406,
+                    -1.8614616394042969
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    602.8154296875,
+                    0.008533477783203125
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    765.5052490234375,
+                    -2.9614601135253908
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 13,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 13,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    926.2481689453125,
+                    1.3395328521728516
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 14,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 14,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    1088.93798828125,
+                    -1.6304607391357422
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 15,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    1248.349853515625,
+                    -1.3224658966064454
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 16,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    1411.0396728515626,
+                    -4.292459487915039
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur_pass.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur_pass.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 18,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 18,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    286.98876953125,
+                    373.0276794433594
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::output",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node16",
+                    "var_type": "texture",
+                    "var_name": "tex",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [],
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    1541.84912109375,
+                    25.5051326751709
                 ],
                 "comp_type": "n2_transform"
             },
@@ -316,960 +1241,6 @@
                 "comp_type": "bp_node",
                 "connection": [],
                 "connection": []
-            }
-        ],
-        [
-            {
-                "position": [
-                    129.56854248046876,
-                    -214.41552734375
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "draw_equirectangular_plane.json",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::sub_graph",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "filepath": "draw_equirectangular_plane.json",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -11.276615142822266,
-                    -262.186279296875
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node33",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "left"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "left"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -35.236541748046878,
-                    -193.25936889648438
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::look_at_mat",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node174",
-                    "eye": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "center": {
-                        "x": -1.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "up": {
-                        "x": 0.0,
-                        "y": -1.0,
-                        "z": 0.0
-                    },
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    140.65213012695313,
-                    -505.3719482421875
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "draw_equirectangular_plane.json",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::sub_graph",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "filepath": "draw_equirectangular_plane.json",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -0.19302749633789063,
-                    -553.142578125
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node3310",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 8,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "top"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 8,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "top"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -24.1529541015625,
-                    -484.21575927734377
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::look_at_mat",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node17411",
-                    "eye": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "center": {
-                        "x": 0.0,
-                        "y": 1.0,
-                        "z": 0.0
-                    },
-                    "up": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 1.0
-                    },
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 8,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 8,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    146.92898559570313,
-                    -753.3076782226563
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "draw_equirectangular_plane.json",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::sub_graph",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "filepath": "draw_equirectangular_plane.json",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    6.083827972412109,
-                    -801.0783081054688
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node33106",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 11,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "bottom"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 11,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "bottom"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -17.8760986328125,
-                    -732.1514892578125
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::look_at_mat",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node174117",
-                    "eye": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "center": {
-                        "x": 0.0,
-                        "y": -1.0,
-                        "z": 0.0
-                    },
-                    "up": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": -1.0
-                    },
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 11,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 11,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    160.91195678710938,
-                    -1002.740966796875
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "draw_equirectangular_plane.json",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::sub_graph",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "filepath": "draw_equirectangular_plane.json",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    20.06679916381836,
-                    -1050.5126953125
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node33109",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 14,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "front"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 14,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "front"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -3.89312744140625,
-                    -979.4848022460938
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::look_at_mat",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node1741110",
-                    "eye": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "center": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 1.0
-                    },
-                    "up": {
-                        "x": 0.0,
-                        "y": -1.0,
-                        "z": 0.0
-                    },
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 14,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 14,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    171.80194091796876,
-                    -1255.442626953125
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "draw_equirectangular_plane.json",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::sub_graph",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "filepath": "draw_equirectangular_plane.json",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    30.95682144165039,
-                    -1303.21337890625
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node331012",
-                    "filepath": "",
-                    "type": "2d",
-                    "width": 512,
-                    "height": 512,
-                    "format": "rgb",
-                    "wrap": "repeat",
-                    "filter": "linear",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 17,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "back"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 17,
-                                "pin": "DstTex"
-                            },
-                            {
-                                "node_idx": 20,
-                                "pin": "back"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    6.996894836425781,
-                    -1233.1865234375
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::look_at_mat",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node1741113",
-                    "eye": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "center": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": -1.0
-                    },
-                    "up": {
-                        "x": 0.0,
-                        "y": -1.0,
-                        "z": 0.0
-                    },
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 17,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": [
-                            {
-                                "node_idx": 17,
-                                "pin": "ViewMat"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    415.1289367675781,
-                    -697.1525268554688
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": "",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::texture_cube",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node14",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "out",
-                        "to": []
-                    }
-                ]
             }
         ]
     ],

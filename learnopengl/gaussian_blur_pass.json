@@ -3,13 +3,13 @@
         [
             {
                 "position": [
-                    -422.1648254394531,
-                    21.40753173828125
+                    -677.7869873046875,
+                    29.119094848632814
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -26,11 +26,22 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": false,
-                    "channel": 0
+                    "name": "node0",
+                    "channel": 0,
+                    "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "next",
@@ -53,7 +64,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -70,8 +81,8 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": false
+                    "name": "node1",
+                    "props": []
                 },
                 "comp_type": "bp_node",
                 "connection": [
@@ -79,8 +90,19 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 12,
-                                "pin": "Out"
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
                             }
                         ]
                     }
@@ -96,7 +118,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -113,10 +135,21 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": false
+                    "name": "node2",
+                    "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "next",
@@ -139,7 +172,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -156,12 +189,23 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": false,
+                    "name": "node3",
                     "type": "quad",
-                    "layout": "pos_tex"
+                    "layout": "pos_tex",
+                    "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -178,13 +222,13 @@
         [
             {
                 "position": [
-                    -280.5423583984375,
-                    32.49920654296875
+                    -523.6361083984375,
+                    39.11077117919922
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -201,8 +245,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": true,
+                    "name": "node4",
                     "type": [
                         "color"
                     ],
@@ -211,7 +254,8 @@
                         "g": 0,
                         "b": 0,
                         "a": 0
-                    }
+                    },
+                    "props": []
                 },
                 "comp_type": "bp_node",
                 "connection": [
@@ -219,7 +263,18 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 5,
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
                                 "pin": "prev"
                             }
                         ]
@@ -236,7 +291,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -253,12 +308,23 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": false,
+                    "name": "node5",
                     "var_name": "horizontal",
-                    "var_type": "unknown"
+                    "var_type": "bool",
+                    "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "next",
@@ -276,12 +342,12 @@
             {
                 "position": [
                     19.641725540161134,
-                    12.188151359558106
+                    13.01459789276123
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -298,12 +364,23 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "enable": true,
-                    "preview": false,
+                    "name": "node6",
                     "var_name": "image",
-                    "var_type": "unknown"
+                    "var_type": "texture",
+                    "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "next",
@@ -320,8 +397,8 @@
         [
             {
                 "position": [
-                    -551.5,
-                    31.0
+                    -182.81292724609376,
+                    -334.90606689453127
                 ],
                 "comp_type": "n2_transform"
             },
@@ -337,148 +414,36 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "bp::Input",
+                "node_type": "renderlab::input",
                 "node_val": {
                     "style": {
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "name": "",
-                    "type": 0
+                    "name": "node7",
+                    "var_type": "render_target",
+                    "var_name": "rt",
+                    "props": []
                 },
                 "comp_type": "bp_node",
                 "connection": [
                     {
-                        "from": "Out",
+                        "from": "_out",
                         "to": [
                             {
                                 "node_idx": 0,
-                                "pin": "prev"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -258.2605285644531,
-                    -26.623037338256837
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "bp::Input",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "hori",
-                    "type": 1005
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "Out",
-                        "to": [
+                                "pin": "obj"
+                            },
                             {
-                                "node_idx": 5,
-                                "pin": "value"
+                                "node_idx": 1,
+                                "pin": "obj"
                             }
                         ]
                     }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -113.71487426757813,
-                    -65.71395111083985
                 ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "bp::Input",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "image",
-                    "type": 1000
-                },
-                "comp_type": "bp_node",
                 "connection": [
                     {
-                        "from": "Out",
-                        "to": [
-                            {
-                                "node_idx": 6,
-                                "pin": "value"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -46.44213104248047,
-                    -282.9866638183594
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "bp::Input",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "RT",
-                    "type": 1001
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "Out",
+                        "from": "_out",
                         "to": [
                             {
                                 "node_idx": 0,
@@ -496,55 +461,8 @@
         [
             {
                 "position": [
-                    -308.26031494140627,
-                    121.55875396728516
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "bp::Input",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "shader",
-                    "type": 1002
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "Out",
-                        "to": [
-                            {
-                                "node_idx": 5,
-                                "pin": "shader"
-                            },
-                            {
-                                "node_idx": 6,
-                                "pin": "shader"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    481.5,
-                    29.0
+                    -96.53877258300781,
+                    -65.52922821044922
                 ],
                 "comp_type": "n2_transform"
             },
@@ -560,17 +478,313 @@
                 "comp_type": "n0_flags"
             },
             {
-                "node_type": "bp::Output",
+                "node_type": "renderlab::input",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node8",
+                    "var_type": "texture",
+                    "var_name": "tex",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "_out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "_out",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -365.7992858886719,
+                    -71.53767395019531
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::shader",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node9",
+                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec2 aTexCoords;\r\n\r\nout vec2 TexCoords;\r\n\r\nvoid main()\r\n{\r\n    TexCoords = aTexCoords;\r\n    gl_Position = vec4(aPos, 1.0);\r\n}",
+                    "frag": "#version 330 core\r\nout vec4 FragColor;\r\n\r\nin vec2 TexCoords;\r\n\r\nuniform sampler2D image;\r\n\r\nuniform bool horizontal;\r\nuniform float weight[5] = float[] (0.2270270270, 0.1945945946, 0.1216216216, 0.0540540541, 0.0162162162);\r\n\r\nvoid main()\r\n{             \r\n     vec2 tex_offset = 1.0 / textureSize(image, 0); // gets size of single texel\r\n     vec3 result = texture(image, TexCoords).rgb * weight[0];\r\n     if(horizontal)\r\n     {\r\n         for(int i = 1; i < 5; ++i)\r\n         {\r\n            result += texture(image, TexCoords + vec2(tex_offset.x * i, 0.0)).rgb * weight[i];\r\n            result += texture(image, TexCoords - vec2(tex_offset.x * i, 0.0)).rgb * weight[i];\r\n         }\r\n     }\r\n     else\r\n     {\r\n         for(int i = 1; i < 5; ++i)\r\n         {\r\n             result += texture(image, TexCoords + vec2(0.0, tex_offset.y * i)).rgb * weight[i];\r\n             result += texture(image, TexCoords - vec2(0.0, tex_offset.y * i)).rgb * weight[i];\r\n         }\r\n     }\r\n     FragColor = vec4(result, 1.0);\r\n}",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 6,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 6,
+                                "pin": "shader"
+                            },
+                            {
+                                "node_idx": 12,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -218.15928649902345,
+                    -87.3499984741211
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::input",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node11",
+                    "var_type": "bool",
+                    "var_name": "hori",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "_out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "_out",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "value"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    482.1585388183594,
+                    29.356956481933595
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
                 "node_val": {
                     "style": {
                         "only_title": false,
                         "small_title_font": false
                     },
                     "name": "",
-                    "type": 0
+                    "pass_end": 0,
+                    "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [],
                 "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -327.80853271484377,
+                    28.67696189880371
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::bind",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node10",
+                    "channel": 0,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 5,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -813.6689453125,
+                    37.95845031738281
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::ztest",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node12",
+                    "func": "off",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 0,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     ],

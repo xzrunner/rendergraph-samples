@@ -9,7 +9,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -64,7 +64,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -118,7 +118,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -156,6 +156,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ],
                 "connection": [
@@ -171,6 +175,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ]
             }
@@ -184,7 +192,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -248,7 +256,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -309,7 +317,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -363,7 +371,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -427,7 +435,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -482,7 +490,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -517,7 +525,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -554,7 +562,7 @@
                                 "pin": "col0"
                             },
                             {
-                                "node_idx": 28,
+                                "node_idx": 26,
                                 "pin": "scene"
                             }
                         ]
@@ -569,7 +577,7 @@
                                 "pin": "col0"
                             },
                             {
-                                "node_idx": 28,
+                                "node_idx": 26,
                                 "pin": "scene"
                             }
                         ]
@@ -586,7 +594,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -650,7 +658,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -722,7 +730,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -784,7 +792,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -839,7 +847,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -901,7 +909,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -956,7 +964,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1011,7 +1019,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1048,7 +1056,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1110,7 +1118,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1145,6 +1153,10 @@
                             {
                                 "node_idx": 2,
                                 "pin": "col1"
+                            },
+                            {
+                                "node_idx": 34,
+                                "pin": "tex"
                             }
                         ]
                     }
@@ -1156,6 +1168,10 @@
                             {
                                 "node_idx": 2,
                                 "pin": "col1"
+                            },
+                            {
+                                "node_idx": 34,
+                                "pin": "tex"
                             }
                         ]
                     }
@@ -1171,7 +1187,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1226,7 +1242,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1281,7 +1297,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1336,7 +1352,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1394,102 +1410,13 @@
         [
             {
                 "position": [
-                    -366.9920654296875,
-                    -738.1422729492188
+                    275.119873046875,
+                    -1046.6253662109376
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "renderlab::clear",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "node22",
-                    "type": [
-                        "color",
-                        "depth"
-                    ],
-                    "color": {
-                        "r": 128,
-                        "g": 128,
-                        "b": 128,
-                        "a": 255
-                    },
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ],
-                "connection": [
-                    {
-                        "from": "next",
-                        "to": []
-                    }
-                ]
-            }
-        ],
-        [
-            {
-                "position": [
-                    -212.82032775878907,
-                    -747.611328125
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
-                "name": "",
-                "id": 0,
-                "comp_type": "n0_identity"
-            },
-            {
-                "visible": true,
-                "editable": true,
-                "comp_type": "n0_flags"
-            },
-            {
-                "node_type": "bp::Function",
-                "node_val": {
-                    "style": {
-                        "only_title": false,
-                        "small_title_font": false
-                    },
-                    "name": "blur_10",
-                    "filepath": "blur_10.json",
-                    "props": []
-                },
-                "comp_type": "bp_node",
-                "connection": [],
-                "connection": []
-            }
-        ],
-        [
-            {
-                "position": [
-                    326.9945983886719,
-                    -950.6571655273438
-                ],
-                "comp_type": "n2_transform"
-            },
-            {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1525,7 +1452,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 27,
+                                "node_idx": 25,
                                 "pin": "prev"
                             }
                         ]
@@ -1536,7 +1463,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 27,
+                                "node_idx": 25,
                                 "pin": "prev"
                             }
                         ]
@@ -1547,13 +1474,13 @@
         [
             {
                 "position": [
-                    501.1465148925781,
-                    -956.1412963867188
+                    449.27178955078127,
+                    -1052.1094970703126
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1580,7 +1507,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 31,
+                                "node_idx": 29,
                                 "pin": "prev"
                             }
                         ]
@@ -1591,7 +1518,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 31,
+                                "node_idx": 29,
                                 "pin": "prev"
                             }
                         ]
@@ -1602,13 +1529,13 @@
         [
             {
                 "position": [
-                    368.49652099609377,
-                    -1061.94140625
+                    316.6217956542969,
+                    -1157.90966796875
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1636,7 +1563,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 27,
+                                "node_idx": 25,
                                 "pin": "obj"
                             }
                         ]
@@ -1647,7 +1574,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 27,
+                                "node_idx": 25,
                                 "pin": "obj"
                             }
                         ]
@@ -1658,13 +1585,13 @@
         [
             {
                 "position": [
-                    219.74655151367188,
-                    -1072.94140625
+                    186.31312561035157,
+                    -1167.543701171875
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1691,7 +1618,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 26,
                                 "pin": "bloom"
                             }
                         ]
@@ -1702,7 +1629,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 26,
                                 "pin": "bloom"
                             }
                         ]
@@ -1713,13 +1640,13 @@
         [
             {
                 "position": [
-                    234.49655151367188,
-                    -1128.94140625
+                    188.7689208984375,
+                    -1218.7625732421876
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1746,7 +1673,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 26,
                                 "pin": "exposure"
                             }
                         ]
@@ -1757,7 +1684,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 26,
                                 "pin": "exposure"
                             }
                         ]
@@ -1768,13 +1695,13 @@
         [
             {
                 "position": [
-                    761.7508544921875,
-                    -965.3413696289063
+                    709.8759765625,
+                    -1061.3096923828126
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1800,7 +1727,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 33,
+                                "node_idx": 31,
                                 "pin": "prev"
                             }
                         ]
@@ -1811,7 +1738,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 33,
+                                "node_idx": 31,
                                 "pin": "prev"
                             }
                         ]
@@ -1822,13 +1749,13 @@
         [
             {
                 "position": [
-                    633.1737060546875,
-                    -1008.8502197265625
+                    581.298828125,
+                    -1104.8184814453126
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1856,7 +1783,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 31,
+                                "node_idx": 29,
                                 "pin": "obj"
                             }
                         ]
@@ -1867,7 +1794,7 @@
                         "from": "out",
                         "to": [
                             {
-                                "node_idx": 31,
+                                "node_idx": 29,
                                 "pin": "obj"
                             }
                         ]
@@ -1878,13 +1805,13 @@
         [
             {
                 "position": [
-                    888.969970703125,
-                    -944.2263793945313
+                    900.3624267578125,
+                    -948.0238647460938
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1902,7 +1829,7 @@
                         "small_title_font": false
                     },
                     "name": "",
-                    "pass_end": 1,
+                    "pass_end": 2,
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -1913,13 +1840,13 @@
         [
             {
                 "position": [
-                    -287.11944580078127,
-                    -749.25390625
+                    -243.88714599609376,
+                    -784.5122680664063
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1938,8 +1865,8 @@
                     },
                     "title": "blur bright fragments with two-pass Gaussian Blur",
                     "comment": "",
-                    "width": 285.9998779296875,
-                    "height": 72.00006103515625,
+                    "width": 365.013427734375,
+                    "height": 151.2095947265625,
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -1950,13 +1877,13 @@
         [
             {
                 "position": [
-                    555.5524291992188,
-                    -1018.4334716796875
+                    503.67767333984377,
+                    -1114.4017333984376
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1977,6 +1904,113 @@
                     "comment": "",
                     "width": 771.979736328125,
                     "height": 279.5596923828125,
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [],
+                "connection": []
+            }
+        ],
+        [
+            {
+                "position": [
+                    -261.3323059082031,
+                    -764.0857543945313
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "gaussian_blur.json",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::sub_graph",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "filepath": "gaussian_blur.json",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 35,
+                                "pin": "prev"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "tex",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "bloomBlur"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 35,
+                                "pin": "prev"
+                            }
+                        ]
+                    },
+                    {
+                        "from": "tex",
+                        "to": [
+                            {
+                                "node_idx": 26,
+                                "pin": "bloomBlur"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    -130.967529296875,
+                    -753.6043701171875
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::pass_end",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "",
+                    "pass_end": 1,
                     "props": []
                 },
                 "comp_type": "bp_node",
