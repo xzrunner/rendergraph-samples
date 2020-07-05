@@ -9,7 +9,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -49,6 +49,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -61,7 +72,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -93,6 +104,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -105,7 +127,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -136,6 +158,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -148,7 +181,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -181,6 +214,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -193,7 +237,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -226,6 +270,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -238,7 +293,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -256,7 +311,7 @@
                         "small_title_font": false
                     },
                     "name": "node23",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\container.jpg",
+                    "filepath": "..\\..\\..\\..\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\container.jpg",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -266,6 +321,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture1"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -288,7 +354,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -310,6 +376,7 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [],
                 "connection": []
             }
         ],
@@ -322,7 +389,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -340,7 +407,7 @@
                         "small_title_font": false
                     },
                     "name": "node230",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\awesomeface.png",
+                    "filepath": "resources\\textures\\awesomeface.png",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -350,6 +417,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture2"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -372,7 +450,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -423,6 +501,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 9,
+                                "pin": "in"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -435,7 +524,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -472,6 +561,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 10,
+                                "pin": "in"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -484,7 +584,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -520,6 +620,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "transform"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -532,7 +643,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -564,10 +675,42 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ]
     ],
     "comp_type": "n0_complex",
-    "page_type": "render_graph"
+    "page_type": "render_graph",
+    "camera": {
+        "pos": [
+            1.2204818725585938,
+            2.1632819175720217,
+            0.9970579147338867
+        ],
+        "target": [
+            -4.958212852478027,
+            5.002910137176514,
+            12.663175582885743
+        ],
+        "up": [
+            0.09842436015605927,
+            0.9776386618614197,
+            -0.1858370155096054
+        ],
+        "near": 0.009999999776482582,
+        "far": 1000.0,
+        "aspect": 0.6387665271759033,
+        "fov": 45.0
+    }
 }

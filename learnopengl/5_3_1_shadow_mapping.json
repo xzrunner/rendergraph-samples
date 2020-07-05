@@ -3,13 +3,13 @@
         [
             {
                 "position": [
-                    -327.8902893066406,
-                    -49.13121032714844
+                    -302.4803161621094,
+                    4.108776092529297
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -65,7 +65,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -125,7 +125,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -194,7 +194,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -256,7 +256,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -310,7 +310,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -358,7 +358,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -407,13 +407,13 @@
         [
             {
                 "position": [
-                    -0.5766029357910156,
-                    -148.10183715820313
+                    -113.1065673828125,
+                    -129.95184326171876
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -451,6 +451,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ],
                 "connection": [
@@ -466,6 +470,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ]
             }
@@ -473,13 +481,13 @@
         [
             {
                 "position": [
-                    -293.70330810546877,
-                    -272.9375
+                    -305.80328369140627,
+                    -230.03750610351563
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -542,13 +550,13 @@
         [
             {
                 "position": [
-                    566.3118896484375,
-                    22.9296875
+                    530.0119018554688,
+                    55.9296760559082
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -602,7 +610,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -652,13 +660,13 @@
         [
             {
                 "position": [
-                    693.4800415039063,
-                    -81.96781921386719
+                    663.780029296875,
+                    -18.1678409576416
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -706,13 +714,13 @@
         [
             {
                 "position": [
-                    -530.8809204101563,
-                    105.51000213623047
+                    -501.8409118652344,
+                    81.31002044677735
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -770,13 +778,13 @@
         [
             {
                 "position": [
-                    -405.95001220703127,
-                    88.57001495361328
+                    -382.96002197265627,
+                    82.52002716064453
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -825,13 +833,13 @@
         [
             {
                 "position": [
-                    -282.530029296875,
-                    83.7300033569336
+                    -259.5400390625,
+                    83.73001861572266
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -886,7 +894,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -943,13 +951,13 @@
         [
             {
                 "position": [
-                    36.73545837402344,
-                    -685.4993286132813
+                    -37.93360137939453,
+                    -590.3328247070313
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -999,13 +1007,13 @@
         [
             {
                 "position": [
-                    -185.7085723876953,
-                    -577.71142578125
+                    -209.1341552734375,
+                    -485.47314453125
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1053,13 +1061,13 @@
         [
             {
                 "position": [
-                    -176.8523712158203,
-                    -627.9739990234375
+                    -207.59844970703126,
+                    -535.7357177734375
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1107,13 +1115,13 @@
         [
             {
                 "position": [
-                    -140.82168579101563,
-                    -787.4628295898438
+                    -215.49075317382813,
+                    -692.2963256835938
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1161,13 +1169,13 @@
         [
             {
                 "position": [
-                    -191.93727111816407,
-                    -432.8230285644531
+                    -88.75731658935547,
+                    -413.68304443359377
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1225,13 +1233,13 @@
         [
             {
                 "position": [
-                    161.1186981201172,
-                    -450.9078674316406
+                    182.01869201660157,
+                    -424.5079040527344
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1280,13 +1288,13 @@
         [
             {
                 "position": [
-                    -19.33624267578125,
-                    -414.97003173828127
+                    48.75373077392578,
+                    -413.9800720214844
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1335,13 +1343,13 @@
         [
             {
                 "position": [
-                    323.7705078125,
-                    -427.9991149902344
+                    323.39874267578127,
+                    -424.7068176269531
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1390,13 +1398,13 @@
         [
             {
                 "position": [
-                    211.1056365966797,
-                    -560.5311279296875
+                    194.60565185546876,
+                    -514.3311767578125
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1414,7 +1422,7 @@
                         "small_title_font": false
                     },
                     "name": "node24",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\wood.png",
+                    "filepath": "resources\\textures\\wood.png",
                     "type": "2d",
                     "width": 1024,
                     "height": 1024,
@@ -1459,13 +1467,13 @@
         [
             {
                 "position": [
-                    693.7952880859375,
-                    -425.8345947265625
+                    685.0106811523438,
+                    -446.3320007324219
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1521,13 +1529,13 @@
         [
             {
                 "position": [
-                    871.0870361328125,
-                    -359.8164978027344
+                    863.7665405273438,
+                    -397.8830871582031
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1565,13 +1573,13 @@
         [
             {
                 "position": [
-                    506.7615966796875,
-                    -423.3700866699219
+                    489.19244384765627,
+                    -433.6187744140625
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1625,7 +1633,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1698,13 +1706,13 @@
         [
             {
                 "position": [
-                    881.5151977539063,
-                    -69.42326354980469
+                    825.4151611328125,
+                    -6.723285675048828
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1733,13 +1741,13 @@
         [
             {
                 "position": [
-                    984.0724487304688,
-                    -433.6500244140625
+                    894.7623901367188,
+                    -483.42938232421877
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1768,13 +1776,13 @@
         [
             {
                 "position": [
-                    199.3597412109375,
-                    70.48992919921875
+                    182.8597412109375,
+                    72.68993377685547
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1832,13 +1840,13 @@
         [
             {
                 "position": [
-                    356.8636474609375,
-                    44.829166412353519
+                    339.2636413574219,
+                    54.72916793823242
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1886,13 +1894,13 @@
         [
             {
                 "position": [
-                    -140.1806640625,
-                    -743.4099731445313
+                    -208.99331665039063,
+                    -646.7793579101563
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1940,13 +1948,13 @@
         [
             {
                 "position": [
-                    432.95977783203127,
-                    -52.780670166015628
+                    373.5597839355469,
+                    -13.180681228637696
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1996,13 +2004,13 @@
         [
             {
                 "position": [
-                    -172.33885192871095,
-                    -687.0291137695313
+                    -203.08493041992188,
+                    -594.7908325195313
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -2046,8 +2054,84 @@
                     }
                 ]
             }
+        ],
+        [
+            {
+                "position": [
+                    -222.18743896484376,
+                    -411.738037109375
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::cull",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node33",
+                    "type": "off",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 20,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     ],
     "comp_type": "n0_complex",
-    "page_type": "render_graph"
+    "page_type": "render_graph",
+    "camera": {
+        "pos": [
+            8.195005416870118,
+            4.341352462768555,
+            -6.082089424133301
+        ],
+        "target": [
+            0.679377555847168,
+            -0.15185213088989259,
+            0.5798373222351074
+        ],
+        "up": [
+            -0.30560338497161868,
+            0.9128116369247437,
+            0.27088984847068789
+        ],
+        "near": 0.009999999776482582,
+        "far": 1000.0,
+        "aspect": 0.6387665271759033,
+        "fov": 45.0
+    }
 }

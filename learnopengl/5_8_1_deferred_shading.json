@@ -9,7 +9,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -44,7 +44,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -99,7 +99,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -137,6 +137,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ],
                 "connection": [
@@ -152,6 +156,10 @@
                                 "pin": "obj"
                             }
                         ]
+                    },
+                    {
+                        "from": "col0",
+                        "to": []
                     }
                 ]
             }
@@ -165,7 +173,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -234,7 +242,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -303,7 +311,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -372,7 +380,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -427,7 +435,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -491,7 +499,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -545,7 +553,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -609,7 +617,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -673,7 +681,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -727,7 +735,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -781,7 +789,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -835,7 +843,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -896,7 +904,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -957,7 +965,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1012,7 +1020,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1060,13 +1068,13 @@
         [
             {
                 "position": [
-                    -165.196044921875,
-                    -217.74900817871095
+                    -166.2960205078125,
+                    -214.44900512695313
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": "..\\..\\..\\easyone",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1124,13 +1132,13 @@
         [
             {
                 "position": [
-                    22.199615478515626,
-                    -227.8890838623047
+                    21.099639892578126,
+                    -224.58908081054688
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1179,13 +1187,13 @@
         [
             {
                 "position": [
-                    -76.83219146728516,
-                    -437.6033630371094
+                    -77.93216705322266,
+                    -434.3033142089844
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1243,13 +1251,13 @@
         [
             {
                 "position": [
-                    195.23037719726563,
-                    -256.01654052734377
+                    194.13040161132813,
+                    -252.71653747558595
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1297,13 +1305,13 @@
         [
             {
                 "position": [
-                    337.8370361328125,
-                    -231.3937225341797
+                    336.737060546875,
+                    -228.09371948242188
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1332,13 +1340,13 @@
         [
             {
                 "position": [
-                    11.588470458984375,
-                    -289.1894836425781
+                    10.488494873046875,
+                    -285.8894348144531
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1388,13 +1396,13 @@
         [
             {
                 "position": [
-                    -266.6431884765625,
-                    -650.1981201171875
+                    -267.7431640625,
+                    -646.898193359375
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1448,7 +1456,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1479,13 +1487,13 @@
         [
             {
                 "position": [
-                    56.876861572265628,
-                    -421.753662109375
+                    55.776885986328128,
+                    -418.4536437988281
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1522,7 +1530,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1553,13 +1561,13 @@
         [
             {
                 "position": [
-                    -281.2931213378906,
-                    -439.2241516113281
+                    -282.3930969238281,
+                    -435.9241027832031
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1609,13 +1617,13 @@
         [
             {
                 "position": [
-                    -279.4792785644531,
-                    -481.8161315917969
+                    -280.5792541503906,
+                    -478.5160827636719
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1665,13 +1673,13 @@
         [
             {
                 "position": [
-                    -278.9279479980469,
-                    -527.878662109375
+                    -280.0279235839844,
+                    -524.5787353515625
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -1721,8 +1729,8 @@
         [
             {
                 "position": [
-                    -277.2225646972656,
-                    -571.54638671875
+                    -278.3225402832031,
+                    -568.2464599609375
                 ],
                 "comp_type": "n2_transform"
             },
@@ -1776,5 +1784,26 @@
         ]
     ],
     "comp_type": "n0_complex",
-    "page_type": "render_graph"
+    "page_type": "render_graph",
+    "camera": {
+        "pos": [
+            -9.080233573913575,
+            8.405852317810059,
+            10.475008964538575
+        ],
+        "target": [
+            -9.072762489318848,
+            8.39753532409668,
+            10.463778495788575
+        ],
+        "up": [
+            0.2907038629055023,
+            0.8511972427368164,
+            -0.43698349595069888
+        ],
+        "near": 0.009999999776482582,
+        "far": 1000.0,
+        "aspect": 1.039426565170288,
+        "fov": 45.0
+    }
 }

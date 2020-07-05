@@ -38,8 +38,8 @@
         [
             {
                 "position": [
-                    546.8606567382813,
-                    230.08863830566407
+                    549.8606567382813,
+                    217.08865356445313
                 ],
                 "comp_type": "n2_transform"
             },
@@ -723,8 +723,8 @@
         [
             {
                 "position": [
-                    -175.5975341796875,
-                    70.46688842773438
+                    -124.99755859375,
+                    16.566970825195314
                 ],
                 "comp_type": "n2_transform"
             },
@@ -777,8 +777,8 @@
         [
             {
                 "position": [
-                    -164.64849853515626,
-                    27.399505615234376
+                    -125.04852294921875,
+                    -27.600418090820314
                 ],
                 "comp_type": "n2_transform"
             },
@@ -886,8 +886,8 @@
         [
             {
                 "position": [
-                    671.1537475585938,
-                    249.68621826171876
+                    677.2036743164063,
+                    237.58624267578126
                 ],
                 "comp_type": "n2_transform"
             },
@@ -1631,8 +1631,8 @@
         [
             {
                 "position": [
-                    755.5745849609375,
-                    428.67828369140627
+                    792.5745239257813,
+                    427.67828369140627
                 ],
                 "comp_type": "n2_transform"
             },
@@ -3705,7 +3705,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 68,
                                 "pin": "prev"
                             }
                         ]
@@ -3716,7 +3716,7 @@
                         "from": "next",
                         "to": [
                             {
-                                "node_idx": 28,
+                                "node_idx": 68,
                                 "pin": "prev"
                             }
                         ]
@@ -3816,6 +3816,61 @@
                         "from": "next",
                         "to": [
                             {
+                                "node_idx": 67,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 67,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "position": [
+                    551.9309692382813,
+                    262.3894348144531
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::cull",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node43",
+                    "type": "back",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
                                 "node_idx": 14,
                                 "pin": "prev"
                             }
@@ -3834,8 +3889,84 @@
                     }
                 ]
             }
+        ],
+        [
+            {
+                "position": [
+                    675.3425903320313,
+                    446.1915588378906
+                ],
+                "comp_type": "n2_transform"
+            },
+            {
+                "filepath": "",
+                "name": "",
+                "id": 0,
+                "comp_type": "n0_identity"
+            },
+            {
+                "visible": true,
+                "editable": true,
+                "comp_type": "n0_flags"
+            },
+            {
+                "node_type": "renderlab::cull",
+                "node_val": {
+                    "style": {
+                        "only_title": false,
+                        "small_title_font": false
+                    },
+                    "name": "node44",
+                    "type": "back",
+                    "props": []
+                },
+                "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 28,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 28,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     ],
     "comp_type": "n0_complex",
-    "page_type": "render_graph"
+    "page_type": "render_graph",
+    "camera": {
+        "pos": [
+            0.6760640144348145,
+            1.8039820194244385,
+            -1.762863039970398
+        ],
+        "target": [
+            0.04155755043029785,
+            -2.761784791946411,
+            0.6388448476791382
+        ],
+        "up": [
+            -0.2243676632642746,
+            0.4779163599014282,
+            0.849267303943634
+        ],
+        "near": 0.009999999776482582,
+        "far": 1000.0,
+        "aspect": 1.0104529857635499,
+        "fov": 45.0
+    }
 }

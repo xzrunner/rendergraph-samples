@@ -9,7 +9,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -50,6 +50,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -62,7 +73,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -94,6 +105,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -106,7 +128,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -137,6 +159,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -149,7 +182,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -182,6 +215,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -194,7 +238,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -227,6 +271,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -239,7 +294,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -257,7 +312,7 @@
                         "small_title_font": false
                     },
                     "name": "node23",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\container.jpg",
+                    "filepath": "resources\\textures\\container.jpg",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -267,6 +322,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture1"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -289,7 +355,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -311,6 +377,7 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [],
                 "connection": []
             }
         ],
@@ -323,7 +390,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -355,6 +422,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -367,7 +445,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -385,7 +463,7 @@
                         "small_title_font": false
                     },
                     "name": "node230",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\awesomeface.png",
+                    "filepath": "resources\\textures\\awesomeface.png",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -395,6 +473,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture2"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",

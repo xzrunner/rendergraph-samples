@@ -1083,13 +1083,23 @@
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
+                        "to": [
+                            {
+                                "node_idx": 21,
+                                "pin": "prev"
+                            }
+                        ]
                     }
                 ],
                 "connection": [
                     {
                         "from": "next",
-                        "to": []
+                        "to": [
+                            {
+                                "node_idx": 21,
+                                "pin": "prev"
+                            }
+                        ]
                     }
                 ]
             }
@@ -1537,7 +1547,7 @@
                         "only_title": false,
                         "small_title_font": false
                     },
-                    "name": "node11",
+                    "name": "node1113",
                     "props": []
                 },
                 "comp_type": "bp_node",
@@ -1691,5 +1701,26 @@
         ]
     ],
     "comp_type": "n0_complex",
-    "page_type": "render_graph"
+    "page_type": "render_graph",
+    "camera": {
+        "pos": [
+            1.128233551979065,
+            1.4660089015960694,
+            -3.14259672164917
+        ],
+        "target": [
+            -0.44268178939819338,
+            0.005446672439575195,
+            -0.1537318229675293
+        ],
+        "up": [
+            -0.18470613658428193,
+            0.9178142547607422,
+            0.35142675042152407
+        ],
+        "near": 0.009999999776482582,
+        "far": 1000.0,
+        "aspect": 1.2446352243423463,
+        "fov": 45.0
+    }
 }
