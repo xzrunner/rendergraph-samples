@@ -9,7 +9,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -50,6 +50,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 7,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -62,7 +73,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -94,6 +105,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -106,7 +128,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -137,6 +159,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -149,7 +182,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -182,6 +215,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -194,7 +238,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -212,11 +256,22 @@
                         "small_title_font": false
                     },
                     "name": "node22",
-                    "vert": "#version 330 core\\nlayout (location = 0) in vec3 aPos;\\nlayout (location = 1) in vec3 aColor;\\nlayout (location = 2) in vec2 aTexCoord;\\n\\nout vec3 ourColor;\\nout vec2 TexCoord;\\n\\nvoid main()\\n{\\n\\tgl_Position = vec4(aPos, 1.0);\\n\\tourColor = aColor;\\n\\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\\n}",
+                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec3 aColor;\r\nlayout (location = 2) in vec2 aTexCoord;\r\n\r\nout vec3 ourColor;\r\nout vec2 TexCoord;\r\n\r\nvoid main()\r\n{\r\n\tgl_Position = vec4(aPos, 1.0);\r\n\tourColor = aColor;\r\n\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\r\n}",
                     "frag": "#version 330 core\r\nout vec4 FragColor;\r\n\r\nin vec3 ourColor;\r\nin vec2 TexCoord;\r\n\r\n// texture samplers\r\nuniform sampler2D texture1;\r\nuniform sampler2D texture2;\r\n\r\nvoid main()\r\n{\r\n\t// linearly interpolate between both textures (80% container, 20% awesomeface)\r\n\tFragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), 0.2);\r\n}",
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -234,12 +289,12 @@
             {
                 "position": [
                     -365.58837890625,
-                    12.964591979980469
+                    13.873687744140625
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -257,7 +312,7 @@
                         "small_title_font": false
                     },
                     "name": "node23",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\container.jpg",
+                    "filepath": "resources\\textures\\container.jpg",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -267,6 +322,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture1"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -289,7 +355,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -311,6 +377,7 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [],
                 "connection": []
             }
         ],
@@ -323,7 +390,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -355,19 +422,30 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
         [
             {
                 "position": [
-                    -365.7362365722656,
-                    -125.70095825195313
+                    -364.8271179199219,
+                    -165.70095825195313
                 ],
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -385,7 +463,7 @@
                         "small_title_font": false
                     },
                     "name": "node230",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\awesomeface.png",
+                    "filepath": "resources\\textures\\awesomeface.png",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -395,6 +473,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture2"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",

@@ -257,7 +257,7 @@
                         "small_title_font": false
                     },
                     "name": "node23",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\container.jpg",
+                    "filepath": "resources\\textures\\container.jpg",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -385,7 +385,7 @@
                         "small_title_font": false
                     },
                     "name": "node230",
-                    "filepath": "D:\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\awesomeface.png",
+                    "filepath": "resources\\textures\\awesomeface.png",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
