@@ -208,8 +208,8 @@
                         "small_title_font": false
                     },
                     "name": "node22",
-                    "vert": "#version 330 core\\nlayout (location = 0) in vec3 aPos;\\nlayout (location = 1) in vec3 aColor;\\nlayout (location = 2) in vec2 aTexCoord;\\n\\nout vec3 ourColor;\\nout vec2 TexCoord;\\n\\nvoid main()\\n{\\n\\tgl_Position = vec4(aPos, 1.0);\\n\\tourColor = aColor;\\n\\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\\n}",
-                    "frag": "#version 330 core\\nout vec4 FragColor;\\n\\nin vec3 ourColor;\\nin vec2 TexCoord;\\n\\n// texture sampler\\nuniform sampler2D texture1;\\n\\nvoid main()\\n{\\n\\tFragColor = texture(texture1, TexCoord);\\n}"
+                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec3 aColor;\r\nlayout (location = 2) in vec2 aTexCoord;\r\n\r\nout vec3 ourColor;\r\nout vec2 TexCoord;\r\n\r\nvoid main()\r\n{\r\n    gl_Position = vec4(aPos, 1.0);\r\n    ourColor = aColor;\r\n    TexCoord = vec2(aTexCoord.x, aTexCoord.y);\r\n}",
+                    "frag": "#version 330 core\r\nout vec4 FragColor;\r\n\r\nin vec3 ourColor;\r\nin vec2 TexCoord;\r\n\r\n// texture sampler\r\nuniform sampler2D texture1;\r\n\r\nvoid main()\r\n{\r\n    FragColor = texture(texture1, TexCoord);\r\n}"
                 },
                 "comp_type": "bp_node",
                 "connection": [
