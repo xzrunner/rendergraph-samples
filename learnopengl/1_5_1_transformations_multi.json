@@ -255,7 +255,7 @@
                         "small_title_font": false
                     },
                     "name": "node22",
-                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec2 aTexCoord;\r\n\r\nout vec2 TexCoord;\r\n\r\nuniform mat4 transform;\r\n\r\nvoid main()\r\n{\r\n\tgl_Position = transform * vec4(aPos, 1.0);\r\n\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\r\n}",
+                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec2 aTexCoord;\r\n\r\nout vec2 TexCoord;\r\n\r\nlayout(std140) uniform UBO\r\n{\r\n    mat4 transform;\r\n} ubo;\r\n\r\nvoid main()\r\n{\r\n\tgl_Position = ubo.transform * vec4(aPos, 1.0);\r\n\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\r\n}",
                     "frag": "#version 330 core\r\nout vec4 FragColor;\r\n\r\nin vec3 ourColor;\r\nin vec2 TexCoord;\r\n\r\n// texture samplers\r\nuniform sampler2D texture1;\r\nuniform sampler2D texture2;\r\n\r\nvoid main()\r\n{\r\n\t// linearly interpolate between both textures (80% container, 20% awesomeface)\r\n\tFragColor = mix(texture(texture1, TexCoord * 2), texture(texture2, TexCoord * 2), 0.2);\r\n}",
                     "props": []
                 },
@@ -311,7 +311,7 @@
                         "small_title_font": false
                     },
                     "name": "node23",
-                    "filepath": "..\\..\\..\\..\\projects\\zz_github\\rendergraph-samples\\learnopengl\\resources\\textures\\container.jpg",
+                    "filepath": "resources\\textures\\container.jpg",
                     "type": "2d",
                     "width": 512,
                     "height": 512,
@@ -616,7 +616,7 @@
                         "to": [
                             {
                                 "node_idx": 4,
-                                "pin": "transform"
+                                "pin": "ubo.transform"
                             }
                         ]
                     }
@@ -627,7 +627,7 @@
                         "to": [
                             {
                                 "node_idx": 4,
-                                "pin": "transform"
+                                "pin": "ubo.transform"
                             }
                         ]
                     }
@@ -691,26 +691,5 @@
         ]
     ],
     "comp_type": "n0_complex",
-    "page_type": "render_graph",
-    "camera": {
-        "pos": [
-            1.2204818725585938,
-            2.1632819175720217,
-            0.9970579147338867
-        ],
-        "target": [
-            -4.958212852478027,
-            5.002910137176514,
-            12.663175582885743
-        ],
-        "up": [
-            0.09842436015605927,
-            0.9776386618614197,
-            -0.1858370155096054
-        ],
-        "near": 0.009999999776482582,
-        "far": 1000.0,
-        "aspect": 0.6387665271759033,
-        "fov": 45.0
-    }
+    "page_type": "render_graph"
 }

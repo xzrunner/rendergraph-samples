@@ -9,7 +9,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -49,6 +49,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 12,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -61,7 +72,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -93,6 +104,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -105,7 +127,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -136,6 +158,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 6,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -148,7 +181,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -181,6 +214,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 2,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -193,7 +237,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -211,11 +255,22 @@
                         "small_title_font": false
                     },
                     "name": "node22",
-                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec2 aTexCoord;\r\n\r\nout vec2 TexCoord;\r\n\r\nuniform mat4 transform;\r\n\r\nvoid main()\r\n{\r\n\tgl_Position = transform * vec4(aPos, 1.0);\r\n\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\r\n}",
+                    "vert": "#version 330 core\r\nlayout (location = 0) in vec3 aPos;\r\nlayout (location = 1) in vec2 aTexCoord;\r\n\r\nout vec2 TexCoord;\r\n\r\nlayout(std140) uniform UBO\r\n{\r\n    mat4 transform;\r\n} ubo;\r\n\r\nvoid main()\r\n{\r\n\tgl_Position = ubo.transform * vec4(aPos, 1.0);\r\n\tTexCoord = vec2(aTexCoord.x, aTexCoord.y);\r\n}",
                     "frag": "#version 330 core\r\nout vec4 FragColor;\r\n\r\nin vec3 ourColor;\r\nin vec2 TexCoord;\r\n\r\n// texture samplers\r\nuniform sampler2D texture1;\r\nuniform sampler2D texture2;\r\n\r\nvoid main()\r\n{\r\n\t// linearly interpolate between both textures (80% container, 20% awesomeface)\r\n\tFragColor = mix(texture(texture1, TexCoord), texture(texture2, TexCoord), 0.2);\r\n}",
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "obj"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -238,7 +293,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -276,6 +331,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture1"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -288,7 +354,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -310,6 +376,7 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [],
                 "connection": []
             }
         ],
@@ -322,7 +389,7 @@
                 "comp_type": "n2_transform"
             },
             {
-                "filepath": ".",
+                "filepath": "",
                 "name": "",
                 "id": 0,
                 "comp_type": "n0_identity"
@@ -350,6 +417,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "texture2"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -423,6 +501,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 9,
+                                "pin": "in"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -461,6 +550,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 10,
+                                "pin": "in"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "out",
@@ -520,6 +620,17 @@
                             }
                         ]
                     }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 11,
+                                "pin": "in"
+                            }
+                        ]
+                    }
                 ]
             }
         ],
@@ -564,7 +675,18 @@
                         "to": [
                             {
                                 "node_idx": 4,
-                                "pin": "transform"
+                                "pin": "ubo.transform"
+                            }
+                        ]
+                    }
+                ],
+                "connection": [
+                    {
+                        "from": "out",
+                        "to": [
+                            {
+                                "node_idx": 4,
+                                "pin": "ubo.transform"
                             }
                         ]
                     }
@@ -602,6 +724,17 @@
                     "props": []
                 },
                 "comp_type": "bp_node",
+                "connection": [
+                    {
+                        "from": "next",
+                        "to": [
+                            {
+                                "node_idx": 1,
+                                "pin": "prev"
+                            }
+                        ]
+                    }
+                ],
                 "connection": [
                     {
                         "from": "next",
